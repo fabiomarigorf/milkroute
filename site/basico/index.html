@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="RF Solution IT">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Básico - Milkroute</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/docco.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Milkroute</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Básico</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../cadastros/" class="nav-link">Cadastros</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../releases/" class="dropdown-item">Releases Notes</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../cadastros/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#basico" class="nav-link">Básico</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#usuarios" class="nav-link">Usuários</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#estabelecimento" class="nav-link">Estabelecimento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tecnicos" class="nav-link">Técnicos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#motivos" class="nav-link">Motivos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#parametro-coleta-leite" class="nav-link">Parâmetro Coleta Leite</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#parametros-integracao" class="nav-link">Parâmetros Integração</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tipo-veiculo" class="nav-link">Tipo Veículo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#serie-mapa" class="nav-link">Série Mapa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="basico">Básico</h1>
+<h2 id="usuarios">Usuários</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar ou inativar usuários.</p>
+<p><img alt="" src="../img/basico/Imagem1.png" title="Cadastro usuário" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Nome</code> - Permite inserir o nome do usuário.</li>
+<li><code>Sobrenome</code> - Permite inserir o sobrenome do usuário.</li>
+<li><code>Login</code> - Permite inserir o login do usuário.</li>
+<li><code>Senha</code> - Permite inserir a senha do usuário.</li>
+<li><code>E-mail</code> - Permite inseris o e-mail do usuário.</li>
+<li><code>Usuário inativo</code> - Permite inativar o usuário.</li>
+<li>
+<p><code>Permissões</code> - Permite selecionar as permissões que o usuário possuirá. </p>
+</li>
+<li>
+<p>Permissões Cadastros Básico:</p>
+<ul>
+<li>Usuários</li>
+<li>Estabelecimento</li>
+<li>Motivo</li>
+<li>Questionário</li>
+<li>Empresa</li>
+<li>Técnico</li>
+<li>Transportadores</li>
+<li>Mensanges</li>
+</ul>
+</li>
+<li>Permissões Coleta Leite:<ul>
+<li>Parâmetro Coleta Leite</li>
+<li>Tipo Veículo</li>
+<li>Propriedade</li>
+<li>Veículo</li>
+<li>Alterar Mapa Coleta</li>
+<li>Mapa de Propriedades</li>
+<li>Movimentos Leite</li>
+<li>Resumo por Rota</li>
+<li>Parâmetros Integração</li>
+<li>Série Mapa</li>
+<li>Rotas</li>
+<li>Cadastro Mapa Coleta</li>
+<li>Consulta Mapa Coleta</li>
+<li>Mapa Recebimento Leite</li>
+<li>Análise Leite Propriedades</li>
+<li>Resumo por Rota x Propriedade</li>
+<li>Rota x Propriedade</li>
+</ul>
+</li>
+<li>Permissões Estabelecimentos:<ul>
+<li>Na opção Estabelecimentos, possibilita o usuário selecionar os estabelecimentos que o usuário irá ter permissões.</li>
+</ul>
+</li>
+</ul>
+<h2 id="estabelecimento">Estabelecimento</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar ou excluir estabelecimentos.</p>
+<p><img alt="" src="../img/basico/Imagem2.png" title="Cadastro Estabelecimento" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Código</code> - Permite inserir o código do estabelecimento. </li>
+<li><code>Razão Social</code> - Permite inserir a razão social/nome do estabelecimento. </li>
+<li><code>Nome Fantasia</code> - Permite inserir o nome fantasia do estabelecimento. </li>
+<li><code>Contato</code> - Permite inserir o contato do estabelecimento.</li>
+<li><code>Documento</code> - Permite inserir o documento do estabelecimento.</li>
+<li><code>Insc Estadual</code> - Permite inserir a inscrição estadual do estabelecimento.</li>
+<li><code>Insc Municipal</code> - Permite inserir a inscrição municipal do estabelecimento.</li>
+<li><code>Nascimento/Fundação</code> - Permite inserir a data de fundação do estabelecimento.</li>
+<li><code>Regime Especial</code> - Permite inserir o regime especial do estabelecimento.</li>
+<li><code>Endereço</code> - Permite inserir o endereço do estabelecimento.</li>
+<li><code>Número</code> - Permite inserir o número do estabelecimento.</li>
+<li><code>Bairro</code> - Permite inserir o bairro do estabelecimento.</li>
+<li><code>Complemento</code> - Permite inserir o complemento do estabelecimento.</li>
+<li><code>Estado</code> - Permite selecionar o estado que será estabelecido para o * `estabelecimento. </li>
+<li><code>Cidade</code> - Permite selecionar a cidade que será estabelecida para o * `estabelecimento. </li>
+<li><code>CEP</code> - Permite inserir o CEP da cidade.</li>
+<li><code>Latitude</code> - Permite inserir a latitude de localização.</li>
+<li><code>Longitude</code> - Permite inserir a longitude de localização.</li>
+<li><code>Email</code> - Permite inserir o e-mail que será estabelecido para o estabelecimento.</li>
+<li><code>Telefone</code> - Permite inserir o telefone que será estabelecido para o * `estabelecimento.</li>
+<li><code>Ambiente Integração</code> - Permite informar o ambiente de integração do * `estabelecimento com sistema externo.</li>
+<li><code>Layout Etiqueta</code> - Permite inserir o layout para as etiquetas a serem impressas em * `impressora Zebra.</li>
+<li><code>Imagem</code> - Permite inserir o logotipo para impressão de relatórios</li>
+</ul>
+<blockquote>
+<p><img alt="" src="../img/buttons/sincronizar.png" title="Botão Sincronizar" /> <strong>Sincronizar Cadastro:</strong> Ao selecionar esta opção é possível sincronizar os cadastros de transportadores com sistemas externos, de acordo com as parametrizações informadas nos “Parâmetros de Integração”.</p>
+<p><img alt="" src="../img/buttons/importar.png" title="Botão Sincronizar" /> <strong>Importar arquivo:</strong> Para sincronizar os cadastros com um arquivo são necessários requisitos para que essa função seja bem-sucedida.</p>
+</blockquote>
+<p>A opção <strong>Integra Arquivo</strong> na função <strong>Parâmetros Coleta</strong> Leite deve ser marcada.
+O arquivo deve ser salvo em .txt com o nome de estabelecimento e deve seguir o layout abaixo para que a sincronização seja realizada.</p>
+<pre><code>codigo;cnpj;razaosocial;nomefantasia;endereco;numero;complemento;pontoreferencia;codmunicipioibge;cidade;estado;uf;pais;bairro;cep;inscricaoestadual;telefone;celular;email;inscricaomunicipal;latitude;longitude
+2016;9999999999999;Estabel RF teste importação;RF;RF Solution IT;SN;;;4113601;Lobato;Paraná;PR;Brasil;Centro;86790-000;9999999999;4432498015;;;9999999999;-23,0076315;-51,9421515
+1109;9999999999999;Estabel PP teste importação;PP;RF Solution IT;SN;;;3541406;Presidente Prudente ;Santa Catarina;SC;Brasil;Centro;19010-030;9999999999;441821013922;;;9999999999;-23,0369160;-51,9144902
+</code></pre>
+<h2 id="tecnicos">Técnicos</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar ou excluir técnicos.</p>
+<p><img alt="" src="../img/basico/Imagem3.png" title="Cadastro Técnico" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Login</code> - Permite informar o login do usuário. </li>
+<li><code>Questionários</code> - Permite selecionar os questionários que estará disponível para os técnicos.</li>
+</ul>
+<h2 id="motivos">Motivos</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar ou excluir motivos de não coleta.</p>
+<p><img alt="" src="../img/basico/Imagem4.png" title="Cadastro Motivo" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Descrição</code> - Permite inserir a descrição do motivo.</li>
+<li><code>Coleta Leite</code> - Permite marcar a opção se o motivo irá pertencer à coleta.</li>
+</ul>
+<h2 id="parametro-coleta-leite">Parâmetro Coleta Leite</h2>
+<p>Essa função tem como caracteristica informar os parâmetros básicos de funcionamento do sistema de coleta.</p>
+<p><img alt="" src="../img/basico/Imagem5.png" title="Cadastro Parâmetros Coleta Leite" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Dias Bloqueio Produtor</code> - Permite informar o número de dias para bloqueio de propriedades que não houve entregas de leite.</li>
+<li><code>Distância Mínima Salvar Trajetória (metros)</code> - Permite informar a distância mínima em metros para salvar trajetória no aplicativo de coleta.</li>
+<li><code>Tempo Atualização GPS (milissegundos)</code> - Permite informar o tempo de atualização do GPS no aplicativo de coleta.</li>
+<li><code>Valida Raio Localização</code> - Permite informar se será validado o raio de localização da propriedade durante a coleta de leite.</li>
+<li><code>Criar Mapa Coleta automaticamente</code> - Permite informar se será criado mapa de coleta automaticamente quando solicitada através do aplicativo de coleta.</li>
+<li><code>Distância mínima raio coleta (metros)</code> - Permite inserir a distância mínima exigida para o raio de coleta, se a opção “Valida Raio Localização” estiver marcada.</li>
+<li><code>Distância Atualização GPS (metros)</code> - Permite informar a distância de atualização do GPS no aplicativo de coleta.</li>
+<li><code>Utiliza Impressora Mobile</code> - Permite informar se o aplicativo de coleta irá utilizar impressora Mobile.</li>
+<li><code>Distância máxima raio filtro propriedades (metros)</code> - Permite informar a distância máxima do filtro de propriedades no aplicativo de coleta.</li>
+<li><code>Integra Arquivo</code> - Permite marcar caso a sincronização for feita através de arquivos do seu diretório.</li>
+</ul>
+<h2 id="parametros-integracao">Parâmetros Integração</h2>
+<p>Essa função tem como caracteristica informar os parâmetros de integração com outros sistemas.</p>
+<p><img alt="" src="../img/basico/Imagem8.png" title="Cadastro Tipo Veículo" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Parceiro Integração</code> - Permite informar qual o parceiro de Integração será utilizado.</li>
+<li><code>Rotina Integração</code> - Permite informar qual a rotina de integração será cadastrada.</li>
+<li><code>URL</code> - Permite informar a URL de integração.</li>
+<li><code>URL Teste</code> - Permite informar a URL do ambiente Teste para integração.</li>
+<li><code>Usuário</code> - Permite informar o usuário de autenticação.</li>
+<li><code>Senha</code> - Permite informar a senha de autenticação.</li>
+<li><code>Token</code> - Permite informar um token de autenticação quando utilizado.</li>
+<li><code>Parâmetros</code>- Permite informar parâmetros extras de integração.</li>
+</ul>
+<h2 id="tipo-veiculo">Tipo Veículo</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir os tipos de veículos.</p>
+<p><img alt="" src="../img/basico/Imagem6.png" title="Cadastro Tipo Veículo" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Descrição</code> - Permite inserir a descrição do tipo de veículo.</li>
+</ul>
+<h2 id="serie-mapa">Série Mapa</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir as séries mapas.</p>
+<p><img alt="" src="../img/basico/Imagem7.png" title="Cadastro Série Mapa" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Estabelec</code> - Permite selecionar o estabelecimento que irá pertencer a série.</li>
+<li><code>Número</code> - Permite inserir o número da série.</li>
+<li><code>Sequencia</code> - Permite inserir a sequência da série.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

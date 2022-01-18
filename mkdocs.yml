@@ -1,0 +1,17 @@
+site_name: Milkroute
+site_description: Documentação Milkroute.
+site_author: RF Solution IT
+
+#repo_url: https://github.com/rfsolutionit/milkroute
+edit_uri: ""
+
+nav:
+  - Home: index.md
+  - Básico: basico.md    
+  - Cadastros: cadastros.md  
+  - Sobre:
+    - Releases Notes: releases.md
+theme: flatly
+
+extra_css:
+    - css/extra.css
