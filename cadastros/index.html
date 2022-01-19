@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="RF Solution IT">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Cadastros - Milkroute</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/docco.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Milkroute</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../basico/" class="nav-link">Básico</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Cadastros</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../releases/" class="dropdown-item">Releases Notes</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../basico/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../releases/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#cadastros" class="nav-link">Cadastros</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#transportadores" class="nav-link">Transportadores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#questionario" class="nav-link">Questionário</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#propriedade" class="nav-link">Propriedade</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#rotas" class="nav-link">Rotas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#veiculo" class="nav-link">Veículo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="cadastros">Cadastros</h1>
+<h2 id="transportadores">Transportadores</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir os transportadores.</p>
+<p><img alt="" src="../img/cadastros/Imagem1.png" title="Cadastro Trnsportador" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Código</code> - Permite inserir o código do transportador. </li>
+<li><code>Razão Social</code> - Permite inserir o nome do transportador. </li>
+<li><code>Nome Fantasia</code> - Permite inserir o nome fantasia do transportador. </li>
+<li><code>Contato</code> - Permite inserir o contato do transportador.</li>
+<li><code>Documento</code> - Permite inserir o número do documento do transportador. </li>
+<li><code>Insc Estadual</code> - Permite inserir a inscrição estadual do transportador.</li>
+<li><code>Insc Municipal</code> - Permite inserir a inscrição municipal do transportador.</li>
+<li><code>Nascimento/Fundação</code> - Permite inserir a data de fundação do transportador.</li>
+<li><code>Endereço</code> - Permite inserir o endereço do transportador.</li>
+<li><code>Número</code> - Permite inserir o número do endereço do transportador.</li>
+<li><code>Bairro</code> - Permite inserir o bairro do transportador.</li>
+<li><code>Complemento</code> - Permite inserir o complemento do transportador.</li>
+<li><code>Estado</code> - Permite selecionar o estado do transportador. </li>
+<li><code>Cidade</code> - Permite selecionar a cidade do transportador. </li>
+<li><code>CEP</code> - Permite inserir o CEP da cidade.</li>
+<li><code>Email</code> - Permite inserir o e-mail do transportador.</li>
+<li><code>Telefone Fixo</code> - Permite inserir o telefone do transportador.</li>
+<li><code>Telefone</code> - Permite inserir o celular do transportador.</li>
+<li><code>Senha</code> - Permite inserir uma senha para o transportador.</li>
+</ul>
+<blockquote>
+<p><img alt="" src="../img/buttons/sincronizar.png" title="Sincronizar Cadastro Trnsportador" /> Sincronizar Cadastro: Ao selecionar esta opção é possível sincronizar os cadastros de transportadores com sistemas externos, de acordo com as parametrizações informadas nos “Parâmetros de Integração”.</p>
+<p><img alt="" src="../img/buttons/importar.png" title="Importar Cadastro Trnsportador" /> Importar arquivo: Para sincronizar os cadastros com um arquivo são necessários requisitos para que essa função seja bem-sucedida.</p>
+</blockquote>
+<p>A opção Integra Arquivo na função Parâmetros Coleta Leite deve ser marcada.</p>
+<p>O arquivo deve ser salvo em .txt com o nome de transportador e deve seguir o layout abaixo para que a sincronização seja realizada.</p>
+<pre><code>codigo;cnpj;razaosocial;nomefantasia;endereco;numero;complemento;pontoreferencia;codmunicipioibge;cidade;estado;uf;pais;bairro;cep;inscricaoestadual;telefone;celular;email;inscricaomunicipal
+100;9999999999999;Transportador RF;RF;RF Solution IT;SN;;;4113601;Lobato;Paraná;PR;Brasil;Centro;86790000;999999999;4432498015;;rf@rfsolutionit.com.br;999999999
+</code></pre>
+<h2 id="questionario">Questionário</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir questionários.</p>
+<p><img alt="" src="../img/cadastros/Imagem2.png" title="Cadastro Questionário" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Descrição</code> - Permite infomrar a descrição do questionátio.</li>
+<li><code>Categorias</code> - Permite informar as categorias de perguntas do questionário.</li>
+<li><code>Perguntas</code> - Permite informar as perguntas relacionadas a categoria.</li>
+</ul>
+<h2 id="propriedade">Propriedade</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir as propriedades.</p>
+<p><img alt="" src="../img/cadastros/Imagem3.png" title="Cadastro Propriedades" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Código</code> - Permite inserir o código da propriedade. </li>
+<li><code>Razão Social</code> - Permite inserir o nome da propriedade. </li>
+<li><code>Nome Fantasia</code> - Permite inserir o nome fantasia da propriedade. </li>
+<li><code>Contato</code> - Permite inserir o contato da propriedade.</li>
+<li><code>Documento</code> - Permite inserir o documento da propriedade. </li>
+<li><code>Insc Estadual</code> - Permite inserir o número da inscrição estadual da propriedade.</li>
+<li><code>Insc Municipal</code> - Permite inserir o número da inscrição municipal da propriedade.</li>
+<li><code>Nascimento/Fundação</code> - Permite inserir a data de fundação da propriedade.</li>
+<li><code>Ativa</code> - Permite marcar a opção caso a propriedade for ativa.</li>
+<li><code>Endereço</code> - Permite inserir o endereço da propriedade.</li>
+<li><code>Número</code> - Permite inserir o número do endereço da propriedade.</li>
+<li><code>Bairro</code> - Permite inserir o bairro da propriedade.</li>
+<li><code>Complemento</code> - Permite inserir o complemento da propriedade.</li>
+<li><code>Estado</code> - Permite selecionar o estado da propriedade. </li>
+<li><code>Cidade</code> - Permite selecionar a cidade da propriedade. </li>
+<li><code>Cep</code> - Permite inserir o CEP da cidade.</li>
+<li><code>Latitude</code> - Permite informar a latitude da propriedade</li>
+<li><code>Longitude</code> - Permite informar a longitude da propriedade</li>
+<li><code>Email</code> - Permite inserir o e-mail da propriedade.</li>
+<li><code>Telefone Fixo</code> - Permite inserir o número do telefone da propriedade.</li>
+<li><code>Celular</code> - Permite inserir o número do celular da propriedade.</li>
+<li><code>Observações</code> - Permite inserir observações da propriedade.</li>
+<li><code>Prop. Benificiária</code> - Permite informar uma propriedade beneficiária, ao qual será destinado os lançamento durante a sincronização dos movimento.</li>
+<li><code>Senha</code> - Permite informar a senha da propriedade para acesso ao aplicativo Milkroute – Produtor.</li>
+</ul>
+<blockquote>
+<p><img alt="" src="../img/buttons/sincronizar.png" title="Sincronizar Propriedades" /> <strong>Sincronizar Cadastro:</strong> Ao selecionar esta opção é possível sincronizar os cadastros de transportadores com sistemas externos, de acordo com as parametrizações informadas nos “Parâmetros de Integração”.</p>
+<p><img alt="" src="../img/buttons/importar.png" title="Importar Arquivo Propriedades" /> <strong>Importar arquivo:</strong> Para sincronizar os cadastros com um arquivo são necessários requisitos para que essa função seja bem-sucedida.</p>
+</blockquote>
+<p>A opção Integra Arquivo na função Parâmetros Coleta Leite deve ser marcada.
+O arquivo deve ser salvo em .txt com o nome de propriedade e deve seguir o layout abaixo para que a sincronização seja realizada.</p>
+<pre><code>codigo;cnpj;razaosocial;nomefantasia;endereco;numero;complemento;pontoreferencia;codmunicipioibge;cidade;estado;uf;pais;bairro;cep;inscricaoestadual;telefone;celular;email;inscricaomunicipal;nomepropriedade;ativa;latitude;longitude
+1;99999999999999;Propriedade RF;RF;RF Solution IT;SN;;;4113601;Lobato;Paraná;PR;Brasil;Centro;86790-000;999999999;(44)3249-8015;;rf@teste.com.br;999999999;Propriedade RF;true;-23,0076315;-51,9421515
+1;99999999999999;João Pedro da Silva;João Pedro da Silva;RF Solution IT;SN;;;4113601;Lobato;Paraná;PR;Brasil;Centro;86790-000;999999999;(44)3249-8015;;joao@teste.com.br;999999999;Propriedade RF;true;-23,0076315;-51,9421515
+</code></pre>
+<h2 id="rotas">Rotas</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir as rotas.</p>
+<p><img alt="" src="../img/cadastros/Imagem4.png" title="Cadastro Rotas" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Código</code> - Permite inserir o código da rota.</li>
+<li><code>Denominação</code> - Permite inserir a denominação da rota.</li>
+<li><code>Estabelec</code> - Permite selecionar o estabelecimento da rota.</li>
+<li><code>Veículo</code> - Permite selecionar um os mais veículos da rota.</li>
+<li><code>Ativa</code> - Permite informar se a rota esta ativa.</li>
+<li><code>Valida Raio Localização</code>- Permite informar se a rota irá realizar validação de localização das propriedades. Este parâmetro será ignorado, caso as propriedades gerais estiverem ativas.</li>
+<li><code>Sub Rota</code> - Permite informar se o cadastro será de uma sub-rota.</li>
+<li><code>Rota Principal</code> - Ao marcar a opção de Sub-Rota, será obrigatório informar uma rota principal.</li>
+<li><code>Propriedades</code> - Permite inserir as propriedades vinculadas a rota.</li>
+</ul>
+<blockquote>
+<p><img alt="" src="../img/buttons/sincronizar.png" title="Sincronizar Rotas" /> <strong>Sincronizar Cadastro:</strong> Ao selecionar esta opção é possível sincronizar os cadastros de transportadores com sistemas externos, de acordo com as parametrizações informadas nos “Parâmetros de Integração”.</p>
+<p><img alt="" src="../img/buttons/importar.png" title="Importar Arquivo Rotas" /> <strong>Importar arquivo:</strong> Para sincronizar os cadastros com um arquivo são necessários requisitos para que essa função seja bem-sucedida.</p>
+</blockquote>
+<p>A opção Integra Arquivo na função Parâmetros Coleta Leite deve ser marcada.
+O arquivo deve ser salvo em .txt com o nome de rota e deve seguir o layout abaixo para que a sincronização seja realizada.</p>
+<pre><code>codigoestabel;codigotransportador;codigorota;denominacao;ativa;codigopropriedade;propriedadebloqueada
+999;2016;11;Linha Lobato;true;2016;false
+999;2016;11;Linha Lobato;true;289188;false
+999;2016;11;Linha Lobato;true;289181;false
+999;2016;11;Linha Lobato;true;286438;false
+999;2016;11;Linha Lobato;true;282171;false
+999;2016;11;Linha Lobato;true;203840;false
+999;2016;11;Linha Lobato;true;203782;false
+999;2016;11;Linha Lobato;true;205574;false
+999;2016;11;Linha Lobato;true;285573;false
+999;2016;11;Linha Lobato;true;285453;false
+999;2016;11;Linha Lobato;true;284734;false
+</code></pre>
+<h2 id="veiculo">Veículo</h2>
+<p>Essa função tem como caracteristica cadastrar, alterar e excluir os veículos.</p>
+<p><img alt="" src="../img/cadastros/Imagem5.png" title="Cadastro Veiculos" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Placa</code> - Permite inserir a placa do veículo.</li>
+<li><code>Descrição</code> - Permite inserir a descrição do veículo.</li>
+<li><code>Transportador</code> - Permite selecionar o transportador do veículo.</li>
+<li><code>Tipo</code> - Permite selecionar o tipo de veículo.</li>
+<li><code>Compartimentos</code> - Permite informar os compartimentos e capacidade do veículo.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
