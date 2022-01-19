@@ -151,3 +151,4 @@ Segue abaixo modelo ZPL contendo alguns variáveis curingas separados por “$$�
 
 Será necessário também a instalação do aplicativo Zebra Browser Print:
 ![](./img/releases/1.2.21/img8.png "Cadastro Layout")
+
