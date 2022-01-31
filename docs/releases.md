@@ -2,6 +2,46 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema Milkroute.
 
+## Versão 1.2.26
+---
+### Mudanças configurações de impressão
+
+Com essa nova atualização não será necessário realizar a instalação do plugin LinePrinter para realizar as impressões do romaneio. A comunicação continuará sendo feita via pareamento bluetooth e assim que pareado a impressora será disponibilizada para acesso dentro do aplicativo Milkroute. Segue detalhamento de cada opção:
+
+![](./img/releases/1.2.26/img1.png "Configurações de impressão")
+
+* `Impressão de Romaneio` - Manter essa opção habilitada para imprimir o romaneio do final da coleta.
+* `Imprimir nome produtor romaneio` - Ao habilitar essa opção o romaneio será impresso contendo o nome de cada produtor que foi feito lançamento. Caso desabilitado será impresso somente o código do produtor.
+---
+![](./img/releases/1.2.26/img2.png "Comprovante")
+
+* `Impressão de comprovante produtor` - Quando habilitado essa opção, ao realizar o lançamento da propriedade será impresso automaticamente o comprovante contendo as informações da coleta. Caso desabilitado essa opção, não será impresso o comprovante.
+* `Tamanho Papel` - Selecionar o tamanho de papel de acordo com o modelo da impressora.
+
+80mm:
+
+![](./img/releases/1.2.26/img3.png)
+
+58mm:
+
+![](./img/releases/1.2.26/img4.png)
+
+---
+
+* `Impressora` - Nessa opção irá listar todas as impressoras que estão pareadas no dispositivo, é necessário selecionar o nome da impressora que será realizada a impressão.
+
+![](./img/releases/1.2.26/img5.png)
+
+Em caso de alteração de impressora, também deverá ser alterado nesta opção.
+
+### Termo de permissão de localização
+Quando instalado o Milkroute em um novo celular/tablet será necessário aceitar os termos de permissão de localização para conseguirem utilizar as funcionalidades do aplicativo, caso negado o aplicativo será encerrado e não permitirá seu uso.
+
+![](./img/releases/1.2.26/img6.png)
+
+
+![](./img/releases/1.2.26/img7.png)
+
 ## Versão 1.2.25
 ---
 ### Alterar Mapa Coleta
