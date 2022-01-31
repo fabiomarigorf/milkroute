@@ -2,6 +2,82 @@
 
 Alterações técnicas, inovação e manutenção de rotinas do sistema Milkroute.
 
+## Versão 1.2.27
+---
+### Melhorias Detalhes Mapa Coleta
+
+Melhoria no detalhamento de informações do mapa coleta em geral.
+
+![](./img/releases/1.2.27/img1.png)
+
+### Melhorias Lançamento Manual
+
+Quando realizado um lançamento manual, será armazenado a coordenada do cadastro da propriedade no lançamento do leite e as coordenadas do estabelecimento será a origem e destino do trajeto. 
+
+![](./img/releases/1.2.27/img2.png)
+
+Assim, será possível ver o trajeto no mapa, mesmo que seja um lançamento manual. 
+
+As coordenadas do estabelecimento deverão ser atualizadas no cadastro do estabelecimento, ao salvar o cadastro, o mesmo irá buscar a localização de acordo com o endereço que está cadastrado. 
+
+![](./img/releases/1.2.27/img3.png)
+
+**Importante:** Por se tratar de uma nova funcionalidade no sistema, as coordenadas do estabelecimento estarão zeradas, sendo necessário realizar o procedimento mencionado acima.
+
+### Alterações no lançamento do leite
+
+Para controle interno, a partir dessa atualização será gravado o usuário e data de alteração quando ocorrer uma alteração manual no lançamento do leite, conforme exemplo abaixo: 
+
+![](./img/releases/1.2.27/img4.png)
+
+Também será possível realizar um detalhamento de todas as alterações feitas no lançamento. 
+
+![](./img/releases/1.2.27/img5.png)
+
+### Bloqueio de Propriedade
+
+Incluso uma nova regra no bloqueio de propriedade pelo Milkroute. Foi disponibilizado um novo flag no cadastro de Motivos Não Coleta - **Não Bloqueia Produtor**:
+
+![](./img/releases/1.2.27/img6.png)
+
+Ao marcar este flag no cadastro de motivo, o sistema irá validar se o motorista fez o lançamento dentro do raio permitido próximo a propriedade e também irá validar se o motivo de não coleta está parametrizado como "Não Bloqueia Produtor", nesse caso o sistema irá ignorar esse produtor e não realizará o bloqueio. 
+
+**Importante:** Essa regra só é válida para clientes que utilizam a funcionalidade bloqueia propriedade, ou seja, a parametrização do "Dias Bloqueio Produtor" deve estar maior que zero.
+
+![](./img/releases/1.2.27/img7.png)
+
+### Parâmetro Período 48 horas
+
+Foi disponibilizado uma nova opção na tela de Parametrização Coleta Leite para definir o filtro de período 48 horas do sistema. 
+
+![](./img/releases/1.2.27/img8.png)
+
+Atualmente filtramos coletas que foram feitas entre 52 e 768 horas, com essa atualização é possível modificar esse filtro. 
+
+### Simulador de Rotas
+
+Disponível para realizar simulações de rotas e propriedades, onde é possível verificar o trajeto, a distância em KM e o volume médio de leite coletado da rota. 
+
+Cada rota é destacado de uma cor diferente, assim como as suas propriedades, que são os pontos marcados no mapa e as linhas que são os trajetos. 
+
+![](./img/releases/1.2.27/img9.png)
+
+* `Km Percuso` - Distância total em KM da rota.
+* `Volume Médio` - Cálculo do volume médio da rota: total de leite coletado no último mês, divido pela quantidade de viagens (coletas) no mesmo período. 
+
+Filtros e tipos de simulações:
+
+![](./img/releases/1.2.27/img10.png)
+
+* `Estabelecimento` - Obrigatório selecionar um estabelecimento para marcar o ponto de origem e destino do trajeto. (destacado em azul)
+* `Somente Rotas` - Possível visualizar uma ou várias rotas no mesmo mapa, cada rota é destacada de uma cor diferente.
+* `Somente Propriedades` - Possível incluir quantas propriedades for necessário para formar uma rota. 
+* `Adicionar Rota x Propriedade` - Possível selecionar uma ou várias rotas e adicionar propriedades de rotas diferentes a ela. (Ideal para simular um trajeto de uma propriedade em outra rota)
+
+Nesta mesma tela também está disponível um botão para cadastrar uma Nova Rota no sistema Milkroute de acordo com a simulação atual.
+
+![](./img/releases/1.2.27/img11.png)
+
 ## Versão 1.2.26
 ---
 ### Mudanças configurações de impressão
@@ -13,7 +89,7 @@ Com essa nova atualização não será necessário realizar a instalação do pl
 * `Impressão de Romaneio` - Manter essa opção habilitada para imprimir o romaneio do final da coleta.
 * `Imprimir nome produtor romaneio` - Ao habilitar essa opção o romaneio será impresso contendo o nome de cada produtor que foi feito lançamento. Caso desabilitado será impresso somente o código do produtor.
 ---
-![](./img/releases/1.2.26/img2.png "Comprovante")
+![](./img/releases/1.2.26/img2.png)
 
 * `Impressão de comprovante produtor` - Quando habilitado essa opção, ao realizar o lançamento da propriedade será impresso automaticamente o comprovante contendo as informações da coleta. Caso desabilitado essa opção, não será impresso o comprovante.
 * `Tamanho Papel` - Selecionar o tamanho de papel de acordo com o modelo da impressora.
