@@ -70,6 +70,9 @@
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="http://localhost:8080/milkroute/releases.md" class="nav-link">Edit on </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -90,6 +93,14 @@
             
             <li class="nav-item" data-level="1"><a href="#alteracoes" class="nav-link">Alterações</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#versao-1227" class="nav-link">Versão 1.2.27</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#versao-1226" class="nav-link">Versão 1.2.26</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#versao-1225" class="nav-link">Versão 1.2.25</a>
               <ul class="nav flex-column">
               </ul>
@@ -115,6 +126,84 @@
 
 <h1 id="alteracoes">Alterações</h1>
 <p>Alterações técnicas, inovação e manutenção de rotinas do sistema Milkroute.</p>
+<h2 id="versao-1227">Versão 1.2.27</h2>
+<hr />
+<h3 id="melhorias-detalhes-mapa-coleta">Melhorias Detalhes Mapa Coleta</h3>
+<p>Melhoria no detalhamento de informações do mapa coleta em geral.</p>
+<p><img alt="" src="../img/releases/1.2.27/img1.png" /></p>
+<h3 id="melhorias-lancamento-manual">Melhorias Lançamento Manual</h3>
+<p>Quando realizado um lançamento manual, será armazenado a coordenada do cadastro da propriedade no lançamento do leite e as coordenadas do estabelecimento será a origem e destino do trajeto. </p>
+<p><img alt="" src="../img/releases/1.2.27/img2.png" /></p>
+<p>Assim, será possível ver o trajeto no mapa, mesmo que seja um lançamento manual. </p>
+<p>As coordenadas do estabelecimento deverão ser atualizadas no cadastro do estabelecimento, ao salvar o cadastro, o mesmo irá buscar a localização de acordo com o endereço que está cadastrado. </p>
+<p><img alt="" src="../img/releases/1.2.27/img3.png" /></p>
+<p><strong>Importante:</strong> Por se tratar de uma nova funcionalidade no sistema, as coordenadas do estabelecimento estarão zeradas, sendo necessário realizar o procedimento mencionado acima.</p>
+<h3 id="alteracoes-no-lancamento-do-leite">Alterações no lançamento do leite</h3>
+<p>Para controle interno, a partir dessa atualização será gravado o usuário e data de alteração quando ocorrer uma alteração manual no lançamento do leite, conforme exemplo abaixo: </p>
+<p><img alt="" src="../img/releases/1.2.27/img4.png" /></p>
+<p>Também será possível realizar um detalhamento de todas as alterações feitas no lançamento. </p>
+<p><img alt="" src="../img/releases/1.2.27/img5.png" /></p>
+<h3 id="bloqueio-de-propriedade">Bloqueio de Propriedade</h3>
+<p>Incluso uma nova regra no bloqueio de propriedade pelo Milkroute. Foi disponibilizado um novo flag no cadastro de Motivos Não Coleta - <strong>Não Bloqueia Produtor</strong>:</p>
+<p><img alt="" src="../img/releases/1.2.27/img6.png" /></p>
+<p>Ao marcar este flag no cadastro de motivo, o sistema irá validar se o motorista fez o lançamento dentro do raio permitido próximo a propriedade e também irá validar se o motivo de não coleta está parametrizado como "Não Bloqueia Produtor", nesse caso o sistema irá ignorar esse produtor e não realizará o bloqueio. </p>
+<p><strong>Importante:</strong> Essa regra só é válida para clientes que utilizam a funcionalidade bloqueia propriedade, ou seja, a parametrização do "Dias Bloqueio Produtor" deve estar maior que zero.</p>
+<p><img alt="" src="../img/releases/1.2.27/img7.png" /></p>
+<h3 id="parametro-periodo-48-horas">Parâmetro Período 48 horas</h3>
+<p>Foi disponibilizado uma nova opção na tela de Parametrização Coleta Leite para definir o filtro de período 48 horas do sistema. </p>
+<p><img alt="" src="../img/releases/1.2.27/img8.png" /></p>
+<p>Atualmente filtramos coletas que foram feitas entre 52 e 768 horas, com essa atualização é possível modificar esse filtro. </p>
+<h3 id="simulador-de-rotas">Simulador de Rotas</h3>
+<p>Disponível para realizar simulações de rotas e propriedades, onde é possível verificar o trajeto, a distância em KM e o volume médio de leite coletado da rota. </p>
+<p>Cada rota é destacado de uma cor diferente, assim como as suas propriedades, que são os pontos marcados no mapa e as linhas que são os trajetos. </p>
+<p><img alt="" src="../img/releases/1.2.27/img9.png" /></p>
+<ul>
+<li><code>Km Percuso</code> - Distância total em KM da rota.</li>
+<li><code>Volume Médio</code> - Cálculo do volume médio da rota: total de leite coletado no último mês, divido pela quantidade de viagens (coletas) no mesmo período. </li>
+</ul>
+<p>Filtros e tipos de simulações:</p>
+<p><img alt="" src="../img/releases/1.2.27/img10.png" /></p>
+<ul>
+<li><code>Estabelecimento</code> - Obrigatório selecionar um estabelecimento para marcar o ponto de origem e destino do trajeto. (destacado em azul)</li>
+<li><code>Somente Rotas</code> - Possível visualizar uma ou várias rotas no mesmo mapa, cada rota é destacada de uma cor diferente.</li>
+<li><code>Somente Propriedades</code> - Possível incluir quantas propriedades for necessário para formar uma rota. </li>
+<li><code>Adicionar Rota x Propriedade</code> - Possível selecionar uma ou várias rotas e adicionar propriedades de rotas diferentes a ela. (Ideal para simular um trajeto de uma propriedade em outra rota)</li>
+</ul>
+<p>Nesta mesma tela também está disponível um botão para cadastrar uma Nova Rota no sistema Milkroute de acordo com a simulação atual.</p>
+<p><img alt="" src="../img/releases/1.2.27/img11.png" /></p>
+<p>Opção para detalhar propriedades simuladas, ao detalhar é possível exportar as mesmas para um relatório excel ou pdf. </p>
+<p><img alt="" src="../img/releases/1.2.27/img12.png" /></p>
+<p>Também é possível selecionar as propriedades desejadas e gerar uma nova simulação a partir delas. </p>
+<p><img alt="" src="../img/releases/1.2.27/img13.png" /></p>
+<h2 id="versao-1226">Versão 1.2.26</h2>
+<hr />
+<h3 id="mudancas-configuracoes-de-impressao">Mudanças configurações de impressão</h3>
+<p>Com essa nova atualização não será necessário realizar a instalação do plugin LinePrinter para realizar as impressões do romaneio. A comunicação continuará sendo feita via pareamento bluetooth e assim que pareado a impressora será disponibilizada para acesso dentro do aplicativo Milkroute. Segue detalhamento de cada opção:</p>
+<p><img alt="" src="../img/releases/1.2.26/img1.png" title="Configurações de impressão" /></p>
+<ul>
+<li><code>Impressão de Romaneio</code> - Manter essa opção habilitada para imprimir o romaneio do final da coleta.</li>
+<li><code>Imprimir nome produtor romaneio</code> - Ao habilitar essa opção o romaneio será impresso contendo o nome de cada produtor que foi feito lançamento. Caso desabilitado será impresso somente o código do produtor.</li>
+</ul>
+<hr />
+<p><img alt="" src="../img/releases/1.2.26/img2.png" /></p>
+<ul>
+<li><code>Impressão de comprovante produtor</code> - Quando habilitado essa opção, ao realizar o lançamento da propriedade será impresso automaticamente o comprovante contendo as informações da coleta. Caso desabilitado essa opção, não será impresso o comprovante.</li>
+<li><code>Tamanho Papel</code> - Selecionar o tamanho de papel de acordo com o modelo da impressora.</li>
+</ul>
+<p>80mm:</p>
+<p><img alt="" src="../img/releases/1.2.26/img3.png" /></p>
+<p>58mm:</p>
+<p><img alt="" src="../img/releases/1.2.26/img4.png" /></p>
+<hr />
+<ul>
+<li><code>Impressora</code> - Nessa opção irá listar todas as impressoras que estão pareadas no dispositivo, é necessário selecionar o nome da impressora que será realizada a impressão.</li>
+</ul>
+<p><img alt="" src="../img/releases/1.2.26/img5.png" /></p>
+<p>Em caso de alteração de impressora, também deverá ser alterado nesta opção.</p>
+<h3 id="termo-de-permissao-de-localizacao">Termo de permissão de localização</h3>
+<p>Quando instalado o Milkroute em um novo celular/tablet será necessário aceitar os termos de permissão de localização para conseguirem utilizar as funcionalidades do aplicativo, caso negado o aplicativo será encerrado e não permitirá seu uso.</p>
+<p><img alt="" src="../img/releases/1.2.26/img6.png" /></p>
+<p><img alt="" src="../img/releases/1.2.26/img7.png" /></p>
 <h2 id="versao-1225">Versão 1.2.25</h2>
 <hr />
 <h3 id="alterar-mapa-coleta">Alterar Mapa Coleta</h3>
