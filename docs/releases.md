@@ -78,6 +78,14 @@ Nesta mesma tela também está disponível um botão para cadastrar uma Nova Rot
 
 ![](./img/releases/1.2.27/img11.png)
 
+Opção para detalhar propriedades simuladas, ao detalhar é possível exportar as mesmas para um relatório excel ou pdf. 
+
+![](./img/releases/1.2.27/img12.png)
+
+Também é possível selecionar as propriedades desejadas e gerar uma nova simulação a partir delas. 
+
+![](./img/releases/1.2.27/img13.png)
+
 ## Versão 1.2.26
 ---
 ### Mudanças configurações de impressão
