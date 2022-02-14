@@ -69,6 +69,7 @@ Filtros e tipos de simulações:
 
 ![](./img/releases/1.2.27/img10.png)
 
+* `Utiliza Propriedades Externas?` - Ao marcar este flag é possível incluir uma propriedade "genérica" que não está no sistema Milkroute, informando um nome qualquer e sua localização baseada na latitude e longitude. 
 * `Estabelecimento` - Obrigatório selecionar um estabelecimento para marcar o ponto de origem e destino do trajeto. (destacado em azul)
 * `Somente Rotas` - Possível visualizar uma ou várias rotas no mesmo mapa, cada rota é destacada de uma cor diferente.
 * `Somente Propriedades` - Possível incluir quantas propriedades for necessário para formar uma rota. 

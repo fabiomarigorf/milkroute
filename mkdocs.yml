@@ -3,7 +3,7 @@ site_description: Documentação Milkroute.
 site_author: RF Solution IT
 
 #repo_url: https://github.com/rfsolutionit/milkroute
-edit_uri: "http://localhost:8080/milkroute"
+edit_uri: ""
 
 nav:
   - Home: index.md
