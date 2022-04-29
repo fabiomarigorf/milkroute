@@ -9,6 +9,7 @@ nav:
   - Home: index.md
   - Básico: basico.md    
   - Cadastros: cadastros.md  
+  - Produtor: produtor.md
   - Sobre:
     - Releases Notes: releases.md
 theme: flatly
