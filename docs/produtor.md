@@ -2,7 +2,7 @@
 
 ## Instalação do Aplicativo
 
-Acessar a PlayStore ou AppleStore do seu dispositivo móvel e pesquisar o aplicativo “Milkroute Produtor” conforme print abaixo:
+Acessar a PlayStore do seu dispositivo móvel e pesquisar o aplicativo “Milkroute Produtor” conforme print abaixo:
 
 ![](./img/produtor/imagem1.png)
 
