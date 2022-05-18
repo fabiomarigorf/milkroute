@@ -57,7 +57,6 @@ Na aba Movimentos, é possível realizar uma consulta detalhada das coletas feit
 * `Média diária` - Cálculo: total de leite coletado no mês dividido pela quantidade de dias em que o produtor teve coleta realizada.
 * `Gráfico` - Na parte superior do gráfico é possível visualizar a quantidade coletada no dia, na parte inferior é possível visualizar o dia do mês. Ao arrastar para o lado é possível ver a quantidade coletada dos demais dias do mês. 
 
-
 ## Análises 
 
 Na aba Análise, é possível realizar uma consulta detalhada das análises feita em sua propriedade.
