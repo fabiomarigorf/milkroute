@@ -10,6 +10,7 @@ nav:
   - Básico: basico.md    
   - Cadastros: cadastros.md  
   - Produtor: produtor.md
+  - Lançamento Manual: lancamentoManual.md
   - Sobre:
     - Releases Notes: releases.md
 theme: flatly
