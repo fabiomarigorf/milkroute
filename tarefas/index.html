@@ -8,7 +8,7 @@
         <meta name="author" content="RF Solution IT">
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Produtor - Milkroute</title>
+        <title>Tarefas - Milkroute</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -43,14 +43,14 @@
                             <li class="navitem">
                                 <a href="../cadastros/" class="nav-link">Cadastros</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../tarefas/" class="nav-link">Tarefas</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Tarefas</a>
                             </li>
                             <li class="navitem">
                                 <a href="../consultas/" class="nav-link">Consultas</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Produtor</a>
+                            <li class="navitem">
+                                <a href="../produtor/" class="nav-link">Produtor</a>
                             </li>
                             <li class="navitem">
                                 <a href="../tecnico/" class="nav-link">Técnico</a>
@@ -73,12 +73,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../consultas/" class="nav-link">
+                                <a rel="prev" href="../cadastros/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../tecnico/" class="nav-link">
+                                <a rel="next" href="../consultas/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -100,33 +100,21 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#produtor" class="nav-link">Produtor</a>
+            <li class="nav-item" data-level="1"><a href="#lancamento-manual" class="nav-link">Lançamento Manual</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#instalacao-do-aplicativo" class="nav-link">Instalação do Aplicativo</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#solicitando-acesso" class="nav-link">Solicitando acesso</a>
+            <li class="nav-item" data-level="2"><a href="#cadastro-mapa-coleta" class="nav-link">Cadastro Mapa Coleta</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#acessando-a-aplicacao" class="nav-link">Acessando a aplicação</a>
+            <li class="nav-item" data-level="2"><a href="#alterar-mapa-coleta" class="nav-link">Alterar Mapa Coleta</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#movimentos" class="nav-link">Movimentos</a>
+            <li class="nav-item" data-level="2"><a href="#simulador-de-rotas" class="nav-link">Simulador de Rotas</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#movimentos-beneficiario" class="nav-link">Movimentos - Beneficiário</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#analises" class="nav-link">Análises</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#notas-fiscais" class="nav-link">Notas Fiscais</a>
+            <li class="nav-item" data-level="2"><a href="#mapa-de-visitas" class="nav-link">Mapa de Visitas</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -137,60 +125,78 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="produtor">Produtor</h1>
-<h2 id="instalacao-do-aplicativo">Instalação do Aplicativo</h2>
-<p>Acessar a PlayStore do seu dispositivo móvel e pesquisar o aplicativo “Milkroute Produtor” conforme print abaixo:</p>
-<p><img alt="" src="../img/produtor/imagem1.png" /></p>
-<p>Selecione o aplicativo abaixo e clique em Instalar:</p>
-<p><img alt="" src="../img/produtor/imagem2.png" /></p>
-<p>Após instalação o mesmo estará disponível na sua área de trabalho do dispositivo.</p>
-<p><img alt="" src="../img/produtor/imagem3.png" /></p>
-<h2 id="solicitando-acesso">Solicitando acesso</h2>
-<p>Ao executar a aplicação caso o produtor não tenha as credencias de acesso, o mesmo pode solicitar através da opção "Solicitar acesso?".</p>
-<p><img alt="" src="../img/produtor/imagem4.png" /></p>
-<p>Ao selecionar, será direcionado para a página de solicitação na qual é necessário informar o CPF/CNPJ do produtor e o token da empresa que pode ser fornecido pela equipe de Captação ou equipe de suporte do Milkroute Produtor. </p>
-<p><img alt="" src="../img/produtor/imagem5.png" /></p>
-<p>Após informar os dados, clique em "Cadastrar". O produtor receberá um e-mail com uma senha automática para acessar o aplicativo. </p>
-<p><img alt="" src="../img/produtor/imagem6.png" /></p>
-<p><strong>Importante:</strong> O e-mail do produtor deve estar parametrizado corretamente em seu cadastro no Milkroute Web: "Menu - Cadastros - Propriedade - Alterar - Aba Contatos"</p>
-<p><img alt="" src="../img/produtor/imagem7.png" /></p>
-<h2 id="acessando-a-aplicacao">Acessando a aplicação</h2>
-<p>Para acessar a aplicação preencha os dados CPF/CNPJ, Empresa (token da empresa), senha e clique em Entrar. </p>
-<p><img alt="" src="../img/produtor/imagem8.png" /></p>
-<p>Após realizar a autenticação, será apresentado a tela inicial com um gráfico detalhando as informações com os totais e médias de leite coletados nos últimos períodos. </p>
-<p><img alt="" src="../img/produtor/imagem9.png" /></p>
-<p>Na parte inferior da tela inicial será disponível as opções para consulta de informações: Movimentos, Análise e Notas Fiscais. </p>
-<h2 id="movimentos">Movimentos</h2>
-<p>Na aba Movimentos, é possível realizar uma consulta detalhada das coletas feita em sua propriedade.</p>
-<p><img alt="" src="../img/produtor/imagem10.png" /></p>
-<p><img alt="" src="../img/produtor/imagem11.png" /></p>
+<h1 id="lancamento-manual">Lançamento Manual</h1>
+<p>Neste tópico será detalhado como realizar um lançamento manual completo pelo Milkroute Web, sem utilizar o aplicativo mobile. </p>
+<h2 id="cadastro-mapa-coleta">Cadastro Mapa Coleta</h2>
+<p><strong>Passo 1:</strong> </p>
+<p>Acesse a opção no Menu - Tarefas - Cadastro Mapa Coleta e clique no botão "Novo": </p>
+<p><img alt="" src="../img/lancamentoManual/img1.png" /></p>
+<p>Selecione os campos estabelecimento, transportador, veículo e a data de partida desejada, em seguida, clique no botão Buscar Rotas, serão disponibilizados todas as rotas do veículo selecionado.</p>
+<p><img alt="" src="../img/lancamentoManual/img2.png" /></p>
+<p>Selecione a rota desejada e arraste para a direita, na sequência clique em Salvar. O mapa ficará disponível na lista com o status Aberto. </p>
+<p><img alt="" src="../img/lancamentoManual/img3.png" /></p>
+<h2 id="alterar-mapa-coleta">Alterar Mapa Coleta</h2>
+<p>Feito isso, acesse a opção no Menu - Tarefas - Alterar Mapa Coleta, localize o mapa criado manualmente e clique na primeira opção Alterar Status Mapa, altere o status para Finalizado e preencha os demais campos conforme necessário. </p>
+<p><img alt="" src="../img/lancamentoManual/img4.png" /></p>
+<p><strong>Importante:</strong> Somente será disponível realizar os lançamentos dos produtores com o status do mapa Finalizado. </p>
+<p>Após alterar o status, clique na opção em formato de lápis "Alterar Lançamentos". Em seguida, clique em "Adicionar", será aberto uma nova janela com as mesmas opções do aplicativo mobile para lançamento da coleta do produtor. </p>
+<p><img alt="" src="../img/lancamentoManual/img5.png" /></p>
+<p>Selecione o produtor e a quantidade coletada deve ser lançada na opção Qtd/Compartimento, destacada na imagem acima, preencha todos os demais campos. Nesta janela, também é possível realizar um lançamento com a situação Não Coletado, selecione também o motivo da não coleta. </p>
+<p><img alt="" src="../img/lancamentoManual/img6.png" /></p>
+<p>Feito o lançamentos de todos os produtores, volte ao Menu - Tarefas - Cadastro Mapa Coleta e sincronize o mapa. </p>
+<p><img alt="" src="../img/lancamentoManual/img7.png" /></p>
+<h2 id="simulador-de-rotas">Simulador de Rotas</h2>
+<p>Disponível para realizar simulações de rotas e propriedades, onde é possível verificar o trajeto, a distância em KM e o volume médio de leite coletado da rota. </p>
+<p>Cada rota é destacado de uma cor diferente, assim como as suas propriedades, que são os pontos marcados no mapa e as linhas que são os trajetos. </p>
+<p><img alt="" src="../img/releases/1.2.27/img9.png" /></p>
 <ul>
-<li><code>Filtro</code> - Permite selecionar o mês em que o produtor quer visualizar as informações. </li>
-<li><code>Total período</code> - Quantidade total de leite coletado no mês. </li>
-<li><code>Média diária</code> - Cálculo: total de leite coletado no mês dividido pela quantidade de dias em que o produtor teve coleta realizada.</li>
-<li><code>Gráfico</code> - Na parte superior do gráfico é possível visualizar a quantidade coletada no dia, na parte inferior é possível visualizar o dia do mês. Ao arrastar para o lado é possível ver a quantidade coletada dos demais dias do mês. </li>
+<li><code>Km Percuso</code> - Distância total em KM da rota.</li>
+<li><code>Volume Médio</code> - Cálculo do volume médio da rota: total de leite coletado no último mês, divido pela quantidade de viagens (coletas) no mesmo período. </li>
 </ul>
-<h2 id="movimentos-beneficiario">Movimentos - Beneficiário</h2>
-<p>Caso o produtor possuir beneficiários, o mesmo irá conseguir visualizar as informações detalhada de seus beneficiários nesta mesma tela. </p>
-<p>Coletas Detalhadas: </p>
-<p><img alt="" src="../img/produtor/imagem17.png" /></p>
-<p>Resumo por produtor: </p>
-<p><img alt="" src="../img/produtor/imagem18.png" /></p>
-<h2 id="analises">Análises</h2>
-<p>Na aba Análise, é possível realizar uma consulta detalhada das análises feita em sua propriedade.</p>
-<p><img alt="" src="../img/produtor/imagem12.png" /></p>
-<p><img alt="" src="../img/produtor/imagem13.png" /></p>
+<p>Filtros e tipos de simulações:</p>
+<p><img alt="" src="../img/releases/1.2.27/img10.png" /></p>
 <ul>
-<li><code>Filtro</code> - Permite selecionar o mês em que o produtor quer visualizar as informações. </li>
-<li><code>Menu superior</code> - É possível selecionar e visualizar diferentes tipos de análises, Gordura, Proteína, Sólidos Totais, ESD, CPP UFC/ml e CCS/ml. </li>
-<li><code>Gráfico</code> - Na parte superior do gráfico é possível visualizar o valor da análise, na parte inferior é possível visualizar o período em que a análise foi feita. </li>
+<li><code>Utiliza Propriedades Externas?</code> - Ao marcar este flag é possível incluir uma propriedade "genérica" que não está no sistema Milkroute, informando um nome qualquer e sua localização baseada na latitude e longitude. </li>
+<li><code>Estabelecimento</code> - Obrigatório selecionar um estabelecimento para marcar o ponto de origem e destino do trajeto. (destacado em azul)</li>
+<li><code>Somente Rotas</code> - Possível visualizar uma ou várias rotas no mesmo mapa, cada rota é destacada de uma cor diferente.</li>
+<li><code>Somente Propriedades</code> - Possível incluir quantas propriedades for necessário para formar uma rota. </li>
+<li><code>Adicionar Rota x Propriedade</code> - Possível selecionar uma ou várias rotas e adicionar propriedades de rotas diferentes a ela. (Ideal para simular um trajeto de uma propriedade em outra rota)</li>
 </ul>
-<h2 id="notas-fiscais">Notas Fiscais</h2>
-<p>Na aba Notas Fiscais, é possível visualizar as notas emitidas no ano, número da nota, data de emissão, status e o seu PDF.</p>
-<p><img alt="" src="../img/produtor/imagem14.png" /></p>
-<p><img alt="" src="../img/produtor/imagem15.png" /></p>
-<p>Ao clicar sobre a nota é possível visualizar e compartilhar seu PDF. </p>
-<p><img alt="" src="../img/produtor/imagem16.png" /></p></div>
+<p>Nesta mesma tela também está disponível um botão para cadastrar uma Nova Rota no sistema Milkroute de acordo com a simulação atual.</p>
+<p><img alt="" src="../img/releases/1.2.27/img11.png" /></p>
+<p>Opção para detalhar propriedades simuladas, ao detalhar é possível exportar as mesmas para um relatório excel ou pdf. </p>
+<p><img alt="" src="../img/releases/1.2.27/img12.png" /></p>
+<p>Também é possível selecionar as propriedades desejadas e gerar uma nova simulação a partir delas. </p>
+<p><img alt="" src="../img/releases/1.2.27/img13.png" /></p>
+<h2 id="mapa-de-visitas">Mapa de Visitas</h2>
+<p>Nesta tela é possível solicitar, agendar e consultar uma nova visita para determinada propriedade e questionário. </p>
+<p><img alt="" src="../img/tarefas/imagem1.png" /></p>
+<p>Filtros:</p>
+<p><img alt="" src="../img/tarefas/imagem2.png" /></p>
+<ul>
+<li><code>Data Inicio</code> - Selecionar a data inicial de visualização das visitas, com base na data de criação da visita. </li>
+<li><code>Data Fim</code> - Selecionar a data final de visualização das visitas, com base na data de criação da visita.</li>
+<li><code>Estabelecimento</code> - Possível consultar as visitas somente dos estabelecimentos selecionados.</li>
+<li><code>Status Visita</code> - Possível consultar as visitas pelos status: Solicitado, Agendado e Finalizado. </li>
+<li><code>Propriedade</code> - Possível consultar as visitas somente das propriedades selecionadas.</li>
+</ul>
+<p><strong>Importante:</strong> Caso não selecionado nenhuma dessas opções o filtro trará todas as visitas com base na data informada. </p>
+<h4 id="solicitar-nova-visita">Solicitar nova visita</h4>
+<p>Através do botão destacada abaixo, é possível solicitar uma nova visita para o técnico, informe o questionário e a propriedade desejada e clique em Salvar.</p>
+<p><img alt="" src="../img/tarefas/imagem3.png" /></p>
+<h4 id="agendar-visita">Agendar Visita</h4>
+<p>Após solicitado a visita, o sistema permite que o técnico agende uma data e horário para realizar a visita à essa propriedade.</p>
+<p><img alt="" src="../img/tarefas/imagem4.png" /></p>
+<h4 id="observacoes-e-recomendacoes">Observações e Recomendações</h4>
+<p>Na opção destacada abaixo, é possível visualizar as recomendações e observações que o técnico informou após finalizado a visita.</p>
+<p><img alt="" src="../img/tarefas/imagem5.png" /></p>
+<h4 id="visualizar-respostas">Visualizar Respostas</h4>
+<p>Na opção destacada abaixo, é possível visualizar as perguntas e respostas do questionário que o técnico respondeu para a visita. </p>
+<p><img alt="" src="../img/tarefas/imagem6.png" /></p>
+<h4 id="relatorio-de-visita">Relatório de Visita</h4>
+<p>Na opção destacada abaixo, é possível gerar um relatório em PDF com todas as informações da visita após finalizada. </p>
+<p><img alt="" src="../img/tarefas/imagem7.png" /> </p>
+<p><img alt="" src="../img/tarefas/imagem8.png" /> </p></div>
             </div>
         </div>
 

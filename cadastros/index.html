@@ -44,10 +44,16 @@
                                 <a href="./" class="nav-link">Cadastros</a>
                             </li>
                             <li class="navitem">
+                                <a href="../tarefas/" class="nav-link">Tarefas</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../consultas/" class="nav-link">Consultas</a>
+                            </li>
+                            <li class="navitem">
                                 <a href="../produtor/" class="nav-link">Produtor</a>
                             </li>
                             <li class="navitem">
-                                <a href="../lancamentoManual/" class="nav-link">Lançamento Manual</a>
+                                <a href="../tecnico/" class="nav-link">Técnico</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sobre <b class="caret"></b></a>
@@ -72,7 +78,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../produtor/" class="nav-link">
+                                <a rel="next" href="../tarefas/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -160,13 +166,60 @@
 </code></pre>
 <h2 id="questionario">Questionário</h2>
 <p>Essa função tem como caracteristica cadastrar, alterar e excluir questionários.</p>
+<p>Na tela abaixo, é possível selecionar o período em que o questionário estará ativo. </p>
+<p><img alt="" src="../img/cadastros/questionario1.png" /></p>
+<p>Ao alterar um questionário, permite cadastrar, alterar ou inativar as categorias, perguntas e possíveis respostas para o questionário.</p>
 <p><img alt="" src="../img/cadastros/Imagem2.png" title="Cadastro Questionário" /></p>
 <p><strong>Principais Campos e Parâmetros:</strong></p>
 <ul>
-<li><code>Descrição</code> - Permite infomrar a descrição do questionátio.</li>
+<li><code>Descrição</code> - Permite informar a descrição do questionátio.</li>
 <li><code>Categorias</code> - Permite informar as categorias de perguntas do questionário.</li>
 <li><code>Perguntas</code> - Permite informar as perguntas relacionadas a categoria.</li>
 </ul>
+<p>Para cadastrar uma nova pergunta, selecione a categoria desejada, clique no botão destacado abaixo:</p>
+<p><img alt="" src="../img/cadastros/questionario2.png" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Descrição</code> - Permite informar a descrição da pergunta.</li>
+<li><code>Tp Resposta</code> - Permite informar o tipo de resposta para essa pergunta, sendo elas:<ul>
+<li>Escolha Uma: permitirá que a pergunta tenha somente uma resposta, por exemplo: Sim ou Não.</li>
+<li>Multipla Escolha: permitirá que a pergunta aceite mais de uma resposta. </li>
+<li>Texto: permitirá que a pergunta aceite uma resposta de texto curto. </li>
+<li>Combo: permitirá que o técnico selecione uma das respostas parametrizadas. </li>
+<li>Data: permitirá que a pergunta aceita somente data como resposta. </li>
+</ul>
+</li>
+<li><code>Ativa</code> - Caso desativado a pergunta não irá aparecer no questionário.</li>
+<li><code>Tamanho Máximo</code> - Permite definir um tamanho máximo de resposta para essa pergunta, utilizado em perguntas do tipo texto, caso contrário pode definir como zero. </li>
+</ul>
+<p>Após cadastrado as perguntas, é obrigatório cadastrar as opções de resposta para essas perguntas, conforme exemplos abaixo: </p>
+<p><img alt="" src="../img/cadastros/questionario3.png" /></p>
+<p><strong>Principais Campos e Parâmetros:</strong></p>
+<ul>
+<li><code>Descrição</code> - Permite informar a descrição da resposta.</li>
+<li><code>Valor Resposta</code> - O valor da resposta será definido de acordo com o tipo da pergunta, sendo elas:<ul>
+<li>Escolha Uma: o valor da resposta deverá ser "true" para Sim e "false" para Não. </li>
+<li>Multipla Escolha: o valor da resposta deverá ser "text". </li>
+<li>Texto: o valor da resposta deverá ser "text".</li>
+<li>Combo: o valor da resposta deverá ser "text".</li>
+<li>Data: o valor da resposta deverá ser "date".</li>
+</ul>
+</li>
+<li><code>Cor</code> - Defina uma cor para agradar a visualização da resposta para o usuário no momento de consultar as resposta no aplicativo e no sistema web. </li>
+</ul>
+<p>Exemplos: </p>
+<ul>
+<li>
+<p>Sim, defina "Verde"</p>
+</li>
+<li>
+<p>Não, defina "Vermelho"</p>
+</li>
+<li>
+<p>Texto, defina "Preto"</p>
+</li>
+</ul>
+<p><strong>Importante:</strong> Caso houver alguma pergunta que será necessário informar apenas números defina o tipo de resposta do tipo "Texto" e no valor da resposta defina "number". </p>
 <h2 id="propriedade">Propriedade</h2>
 <p>Essa função tem como caracteristica cadastrar, alterar e excluir as propriedades.</p>
 <p><img alt="" src="../img/cadastros/Imagem3.png" title="Cadastro Propriedades" /></p>
