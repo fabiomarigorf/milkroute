@@ -94,6 +94,8 @@ O arquivo deve ser salvo em .txt com o nome de estabelecimento e deve seguir o l
 
 Essa função tem como caracteristica cadastrar, alterar ou excluir técnicos.
 
+**Importante:** Para cadastro do técnico é necessário realizar antes o cadastro de usuário. 
+
 ![](./img/basico/Imagem3.png "Cadastro Técnico")
 
 **Principais Campos e Parâmetros:**

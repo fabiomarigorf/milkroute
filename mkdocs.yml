@@ -9,8 +9,10 @@ nav:
   - Home: index.md
   - Básico: basico.md    
   - Cadastros: cadastros.md  
+  - Tarefas: tarefas.md
+  - Consultas: consultas.md
   - Produtor: produtor.md
-  - Lançamento Manual: lancamentoManual.md
+  - Técnico: tecnico.md
   - Sobre:
     - Releases Notes: releases.md
 theme: flatly

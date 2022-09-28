@@ -41,13 +41,60 @@ O arquivo deve ser salvo em .txt com o nome de transportador e deve seguir o lay
 ## Questionário
 Essa função tem como caracteristica cadastrar, alterar e excluir questionários.
 
+Na tela abaixo, é possível selecionar o período em que o questionário estará ativo. 
+
+![](./img/cadastros/questionario1.png)
+
+Ao alterar um questionário, permite cadastrar, alterar ou inativar as categorias, perguntas e possíveis respostas para o questionário.
+
 ![](./img/cadastros/Imagem2.png "Cadastro Questionário")
 
 **Principais Campos e Parâmetros:**
 
-* `Descrição` - Permite infomrar a descrição do questionátio.
+* `Descrição` - Permite informar a descrição do questionátio.
 * `Categorias` - Permite informar as categorias de perguntas do questionário.
 * `Perguntas` - Permite informar as perguntas relacionadas a categoria.
+
+Para cadastrar uma nova pergunta, selecione a categoria desejada, clique no botão destacado abaixo:
+
+![](./img/cadastros/questionario2.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Descrição` - Permite informar a descrição da pergunta.
+* `Tp Resposta` - Permite informar o tipo de resposta para essa pergunta, sendo elas:
+    - Escolha Uma: permitirá que a pergunta tenha somente uma resposta, por exemplo: Sim ou Não.
+    - Multipla Escolha: permitirá que a pergunta aceite mais de uma resposta. 
+    - Texto: permitirá que a pergunta aceite uma resposta de texto curto. 
+    - Combo: permitirá que o técnico selecione uma das respostas parametrizadas. 
+    - Data: permitirá que a pergunta aceita somente data como resposta. 
+* `Ativa` - Caso desativado a pergunta não irá aparecer no questionário.
+* `Tamanho Máximo` - Permite definir um tamanho máximo de resposta para essa pergunta, utilizado em perguntas do tipo texto, caso contrário pode definir como zero. 
+
+Após cadastrado as perguntas, é obrigatório cadastrar as opções de resposta para essas perguntas, conforme exemplos abaixo: 
+
+![](./img/cadastros/questionario3.png)
+
+**Principais Campos e Parâmetros:**
+
+* `Descrição` - Permite informar a descrição da resposta.
+* `Valor Resposta` - O valor da resposta será definido de acordo com o tipo da pergunta, sendo elas:
+    - Escolha Uma: o valor da resposta deverá ser "true" para Sim e "false" para Não. 
+    - Multipla Escolha: o valor da resposta deverá ser "text". 
+    - Texto: o valor da resposta deverá ser "text".
+    - Combo: o valor da resposta deverá ser "text".
+    - Data: o valor da resposta deverá ser "date".
+* `Cor` - Defina uma cor para agradar a visualização da resposta para o usuário no momento de consultar as resposta no aplicativo e no sistema web. 
+
+Exemplos: 
+
+- Sim, defina "Verde"
+
+- Não, defina "Vermelho"
+
+- Texto, defina "Preto"
+
+**Importante:** Caso houver alguma pergunta que será necessário informar apenas números defina o tipo de resposta do tipo "Texto" e no valor da resposta defina "number". 
 
 ## Propriedade
 Essa função tem como caracteristica cadastrar, alterar e excluir as propriedades.
