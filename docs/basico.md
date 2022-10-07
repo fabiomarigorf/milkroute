@@ -82,6 +82,8 @@ Essa função tem como caracteristica cadastrar, alterar ou excluir estabelecime
 
 > ![](./img/buttons/importar.png "Botão Sincronizar") **Importar arquivo:** Para sincronizar os cadastros com um arquivo são necessários requisitos para que essa função seja bem-sucedida.
 
+> ![](./img/buttons/senha.png "Botão Gerar Senha") **Gerar Senha:** Ao pressionar este botão será possível gerar senha para as propriedades do estabelecimento com o código do produtor. As senhas serão geradas apenas para propriedades que não possuirem senha cadastrada.
+
 A opção **Integra Arquivo** na função **Parâmetros Coleta** Leite deve ser marcada.
 O arquivo deve ser salvo em .txt com o nome de estabelecimento e deve seguir o layout abaixo para que a sincronização seja realizada.
 
