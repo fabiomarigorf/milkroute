@@ -17,7 +17,7 @@ selecionar em qual rota trabalhará
 ![](./img/coleta/sincronizarRotas.jpg)
 
 Ao sincronizar uma nova rota sera carregada no menu principar, ao clicar no botão uma opção para selecionar data
-aparecerá, selecione a data desejada, após carregar selecione a rota, selecionar você deve informar o km inicial da 
+aparecerá, selecione a data desejada, após carregar selecione a rota,ao selecionar você deve informar o km inicial da 
 rota
 
 ![](./img/coleta/selecionar.png)
