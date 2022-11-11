@@ -2,7 +2,7 @@
 
 Ao entrar no aplicativo você deve seguir algumas instruções para se conectar. [Clique aqui para conferir o Tutorial](https://youtu.be/i1GYTs2Ctr4)
 ***
-![](/img/coleta/home.jpg)
+![](./img/coleta/home.jpg)
 <br>
 ***
 
@@ -10,21 +10,21 @@ Ao entrar no aplicativo você deve seguir algumas instruções para se conectar.
 Ao entrar no app você será redirecionado diretamente para a abá de rotas, neste campo tem a função de 
 selecionar em qual rota trabalhará
 
-![](/img/coleta/rotas.jpg)
+![](./img/coleta/rotas.jpg)
 
 * Caso não apareça nenhuma rota, basta sincronizar rotas
 
-![](/img/coleta/sincronizarRotas.jpg)
+![](./img/coleta/sincronizarRotas.jpg)
 
 Ao sincronizar uma nova rota sera carregada no menu principar, ao clicar no botão uma opção para selecionar data
 aparecerá, selecione a data desejada, após carregar selecione a rota, selecionar você deve informar o km inicial da 
 rota
 
-![](/img/coleta/selecionar.png)
+![](./img/coleta/selecionar.png)
 
 Após selecionar, você sera redirecionado para uma nova abá onde mostrará todas as propriedades que você de sua rota
 
-![](/img/coleta/produtores.jpg)
+![](./img/coleta/produtores.jpg)
 ***
 ### Legenda
 <br>
@@ -34,7 +34,7 @@ Após selecionar, você sera redirecionado para uma nova abá onde mostrará tod
 
 Quando estiver chegando perto da localização da moradia de um desse produtos, surgirá uma notificação em seu celular dizendo que você está proximo a localização. Selecione um para que possa começar a coleta, ao selecionar algumas informações sobre o produtor aparecerá
 
-![](/img/coleta/produtorInfo.jpg)
+![](./img/coleta/produtorInfo.jpg)
 
 Antes de preencher os campos selecione em qual compartimento o leite ficará
 #### **Campos para preencher :**
