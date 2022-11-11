@@ -22,7 +22,7 @@ rota
 
 ![](./img/coleta/selecionar.png)
 
-Após selecionar, você sera redirecionado para uma nova abá onde mostrará todas as propriedades que você de sua rota
+Após selecionar, você sera redirecionado para uma nova abá onde mostrará todas as propriedades de sua rota
 
 ![](./img/coleta/produtores.jpg)
 ***
@@ -32,14 +32,14 @@ Após selecionar, você sera redirecionado para uma nova abá onde mostrará tod
 
 ***
 
-Quando estiver chegando perto da localização da moradia de um desse produtos, surgirá uma notificação em seu celular dizendo que você está proximo a localização. Selecione um para que possa começar a coleta, ao selecionar algumas informações sobre o produtor aparecerá
+Quando estiver chegando perto da localização da moradia de um desse produtos, surgirá uma notificação em seu celular dizendo que você está proximo a localização. Selecione um para que possa começar a coleta, ao selecionar algumas informações sobre a coleta aparecerá
 
 ![](./img/coleta/produtorInfo.jpg)
 
 Antes de preencher os campos selecione em qual compartimento o leite ficará
 #### **Campos para preencher :**
 
-* `Alizarol` - Informe se o testte foi positivo ou negativo
+* `Alizarol` - Informe se o teste foi positivo ou negativo
 * `Quantidade` - Insira a quantidade total do leite coletado
 * `Temperatura Chegada` - Insira a temperatura do leite na hora de chegada
 * `Temperatura Coleta` - Informe a temperatura do leite no momento de coleta
@@ -75,7 +75,7 @@ Após informar o km final da rota agora resta enviar as informações da coleta
 
 ![](./img/coleta/enviarColeta.jpg)
 
-Logo ao enviar você poderá acessar informações no milkroute web, após o envio a rota será finalizada
+Logo ao enviar você poderá acessar informações no milkroute web, após a rota será finalizada
 
 ![](./img/coleta/rotaFinalizada.jpg)
 ***
@@ -111,11 +111,11 @@ Logo ao enviar você poderá acessar informações no milkroute web, após o env
 
 * `Coletador de Amostra` - Insira o coletador de amostra
 * `URL Comunicação` - URL de comunicação com o servidor| **Rocomendado não mudar**
-* `Token` - Token fornecido pela impresa
+* `Token` - Token fornecido pela empresa
 ****
 1. **Configuração de impressão**
-    - `Impressão de Romaneio` - Deseja impressão de romaneio
-    - `Imprimir Nome Produtor Romaneio` - Deseja imprimir o nome do produtor| **Ative a opção de imprimir romaneio para esta função se torna usavel**
+    - `Impressão de Romaneio` - Deseja impressão de romaneio assinale a opção
+    - `Imprimir Nome Produtor Romaneio` - Deseja imprimir o nome do produtor assinale a opção| **Ative a opção de imprimir romaneio para esta função se torna usavel**
     - `Impressão de Comprovante Produtor` - Deseja imprimir o comprovante do produtor
     - `Tamanho Papel` - Informe o tamanho do papel| **58mm ou 80mm**
 
