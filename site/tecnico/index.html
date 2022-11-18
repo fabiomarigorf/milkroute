@@ -105,6 +105,22 @@
             
             <li class="nav-item" data-level="1"><a href="#tecnico" class="nav-link">Técnico</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link"></a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tecnico_1" class="nav-link">Tecnico</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#mapa-visita" class="nav-link">Mapa Visita</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#aplicativo" class="nav-link">Aplicativo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -112,7 +128,163 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="tecnico">Técnico</h1></div>
+<h1 id="tecnico">Técnico</h1>
+<p><strong>Vizualizer como é o funcionamento do aplicativo do tecnico</strong></p>
+<hr />
+<!-- ## Instalação  -->
+
+<h2 id="_1"></h2>
+<p><strong>Cadastre um questionário para que o tecnico possa realizar</strong></p>
+<p><strong>No milkroute web acesse à abá de cadastro e selecione questionário</strong></p>
+<hr />
+<h3 id="cadastrar-novo-questionario">Cadastrar Novo questionário</h3>
+<p><img alt="" src="../img/tecnico/cadastro.jpg" /></p>
+<h5 id="campos-para-preencher"><strong>Campos para Preencher :</strong></h5>
+<ul>
+<li><code>Descrição</code> - Permite informar a descrição do questionátio.</li>
+<li><code>Data Inicio</code> - Permite inserir a data de inicio de uso do questionário</li>
+<li><code>Data Fim</code> - Permite informar a data máxima de uso do questionário</li>
+</ul>
+<p><img alt="" src="../img/cadastros/questionario1.png" /></p>
+<h4 id="cadastrar-categoria"><strong>Cadastrar Categoria</strong></h4>
+<ul>
+<li><code>Descrição</code> - Permite inserir um nome para a categoria</li>
+</ul>
+<p><img alt="" src="../img/tecnico/categoriaCadastro.jpg" /></p>
+<hr />
+<h4 id="cadastrar-perguntas-para-categoria"><strong>Cadastrar Perguntas para Categoria :</strong></h4>
+<p><img alt="" src="../img/cadastros/questionario2.png" /></p>
+<h6 id="principais-campos-para-preencher"><strong>Principais campos para preencher :</strong></h6>
+<ul>
+<li><code>Descrição</code> - Permite informar a descrição de referência para a pergunta.</li>
+<li><code>Tipo de Resposta</code> - Permite informar o tipo de resposta para essa pergunta, sendo elas:<ul>
+<li>Escolha Uma: permitirá que a pergunta tenha somente uma resposta, por exemplo: Sim ou Não.</li>
+<li>Multipla Escolha: permitirá que a pergunta aceite mais de uma resposta.</li>
+<li>Texto: permitirá que a pergunta aceite uma resposta de texto curto.</li>
+<li>Combo: permitirá que o técnico selecione uma das respostas parametrizadas.</li>
+<li>Data: permitirá que a pergunta aceita somente data como resposta.</li>
+</ul>
+</li>
+<li><code>Ativa</code> - Caso desativado a pergunta não irá aparecer no questionário</li>
+<li><code>Tamanho Máximo</code> - Permite definir um tamanho máximo de resposta para essa pergunta, utilizado em perguntas do tipo texto, caso contrário pode definir como zero.</li>
+</ul>
+<hr />
+<h4 id="incluir-respostas"><strong>Incluir Respostas</strong></h4>
+<p><img alt="" src="../img/tecnico/incluirPergunta.jpg" /></p>
+<h6 id="campos-para-preencher_1"><strong>Campos para preencher :</strong></h6>
+<ul>
+<li><code>Descrição</code> - Informe uma descrição para a resposta| <strong>"Um nome para ser mais especifico"</strong></li>
+<li><code>Valor Resposta</code> - Permite Inserir um valor de respotas, sendo elas<ul>
+<li>Escolha uma: o valor deve ser <strong>true</strong> para positivo ou <strong>false</strong> para negativo</li>
+<li>Multipla escolha: o valor deverá ser <strong>"text"</strong></li>
+<li>Texto: o valor deverá ser <strong>"text"</strong></li>
+<li>Combo: o valor deverá ser <strong>"text"</strong></li>
+<li>Date: o valor da respota deverá ser <strong>"date"</strong></li>
+</ul>
+</li>
+<li><code>Cor</code> - Defina uma cor para agradar a visualização da resposta</li>
+<li><code>Ativa</code> - caso está opção esteja desativada a resposta não aparecerá</li>
+</ul>
+<p><img alt="" src="../img/tecnico/op%C3%A7%C3%A3oPergunta.jpg" /></p>
+<hr />
+<h2 id="tecnico_1">Tecnico</h2>
+<p><strong>Tenha um tecnico cadastrado para que possa definir seus questionários</strong></p>
+<p><strong>No milkroute web vá em basico e acesse o campo tecnico</strong></p>
+<hr />
+<p>Selecione um tecnico e clique na opção para alterar
+<img alt="" src="../img/tecnico/ess.jpg" /></p>
+<p><strong>Selecione um questionário desejado clique na seta unica para enviar esse questionário escolhido, caso deseja mandar mais de um questionário é possivel, caso queria manda todos de uma só vez clique na seta dupla, clique nas setas em suas respectiva direção para mandar onde quiser</strong></p>
+<hr />
+<h2 id="mapa-visita">Mapa Visita</h2>
+<p><strong>Cadastre uma agenda para a visitas dos tecnicos</strong></p>
+<h4 id="nova-visita"><strong>Nova Visita</strong></h4>
+<p><img alt="" src="../img/tecnico/novaVisita.jpg" /></p>
+<h6 id="campos-para-preencher_2"><strong>Campos para preencher :</strong></h6>
+<ul>
+<li><code>Questionário</code> - Selecione qual questionário será usado na visita</li>
+<li><code>Propriedade</code> - Informe o nome da propriedade</li>
+</ul>
+<p><img alt="" src="../img/tecnico/cadastroVisita.jpg" /></p>
+<p>Appós criar uma nova visita, uma listagem de todos os itens aparecerá
+<img alt="" src="../img/tecnico/listagem.jpg" /></p>
+<hr />
+<p><img alt="" src="../img/tecnico/set1.jpg" /></p>
+<p><strong>Vizualizar observações e recomendações</strong> </p>
+<hr />
+<p><img alt="" src="../img/tecnico/set2.jpg" /></p>
+<p><strong>Exibir respostas</strong></p>
+<hr />
+<p><img alt="" src="../img/tecnico/set3.jpg" /></p>
+<p><strong>Opção para baixar um pdf sobre as informações da visita</strong></p>
+<hr />
+<h2 id="aplicativo">Aplicativo</h2>
+<p><strong>O app tem a função da visita do tecnico, ele sera usado no momento da visita</strong></p>
+<hr />
+<h3 id="visitas">Visitas</h3>
+<p><img alt="" src="../img/tecnico/visitasBot%C3%A3o.jpg" /></p>
+<p><img alt="" src="../img/tecnico/visitasPage.jpg" /></p>
+<p><strong>Ao acessar a pagina, mostrará todos as visitas que devem ser feitas</strong></p>
+<ul>
+<li><code>Visitas em azul</code> - Todas as visitas que tiverem em azul estão confirmada</li>
+<li><code>Visitas em amarelo</code> - Todas as visitas que tiverem em amarelo são vistas solicitada</li>
+<li><code>Visitas em cinza claro</code> - Todas as visitas que estiverem com uma cor acizentada são visitas agendada</li>
+<li><code>Vistas em branco</code> - Todo tipo de visita que estiver em branco são visitas em andamento</li>
+</ul>
+<p><strong>Ao clicar no ponto de interrogação na parte superior da pagina, uma mensagem será exibida</strong></p>
+<p><img alt="" src="../img/tecnico/mensagem.jpg" /></p>
+<ul>
+<li>Pressione uma visita para iniciar</li>
+<li>Segure pressionado para reagendar uma visita</li>
+<li>arraste para o lado para cancelar um agendamento</li>
+</ul>
+<p><img alt="" src="../img/tecnico/XRecorder_Edited_17112022_135816_AdobeExpress%20%282%29.gif" /></p>
+<hr />
+<h3 id="nova-visita_1">Nova Visita</h3>
+<p><br>
+<img alt="" src="../img/tecnico/novaVisitaAPP.jpg" /></p>
+<p><strong>Ao clicar na opção de nova visita, você será redirecionado para uma nova abá onde você deve colar o nome da propriedade para a visita</strong></p>
+<p><img alt="" src="../img/tecnico/visitaAgendada.jpg" /></p>
+<p><strong>Selecione a visita para ser iniciada, ao clicar uma mensagem aparecerá se deseja iniciar o preenchimento do questionario, ao inicar você sera redirecionado para uma nova abá com informações da visita, recomendações e observações</strong></p>
+<p><img alt="" src="../img/tecnico/vamosComecar.jpg" /></p>
+<p><strong>Ao ler as recomendações e observações passe para continuar o questionario</strong></p>
+<p><strong>!!!OBS: Todas as perguntas e categorias do questionario são apenas para demonstração, elas não serão iguais a que aparecerão em seu aplicativo</strong></p>
+<p><img alt="" src="../img/tecnico/questionario.jpg" /></p>
+<p>!!!A imagem acmia demostrar perguntas de escolha unica, selecione a opção mais adequada para a pergunta</p>
+<h5 id="exemplo-de-resposta"><strong>Exemplo de Resposta:</strong></h5>
+<p><img alt="" src="../img/tecnico/exResposta.jpg" /></p>
+<hr />
+<h4 id="outros-exemplos-de-resposta"><strong>Outros Exemplos de Resposta :</strong></h4>
+<!-- <br> -->
+<h6 id="resposta-de-multiplas-escolhas"><strong>Resposta de Multiplas Escolhas</strong></h6>
+<p><img alt="" src="../img/tecnico/multiplaEscolha.jpg" /></p>
+<h6 id="resposta-combo"><strong>Resposta Combo</strong></h6>
+<p><img alt="" src="../img/tecnico/combo1.jpg" /></p>
+<p><img alt="" src="../img/tecnico/combo2.jpg" /></p>
+<h6 id="resposta-com-apenas-numeros"><strong>Resposta com apenas Numeros</strong></h6>
+<p><img alt="" src="../img/tecnico/respostaNumero.jpg" /></p>
+<hr />
+<h5 id="resposta-com-apenas-datas"><strong>Resposta com apenas Datas</strong></h5>
+<p><img alt="" src="../img/tecnico/data.jpg" /></p>
+<p><strong>!!Ao clicar uma abá para você escolher a data aparecerá</strong></p>
+<hr />
+<h3 id="finalizar">Finalizar</h3>
+<p><strong>Após preencher todos os campos, só resta finalizar</strong></p>
+<h6 id="video-de-exemplo-para-tutorial"><strong>Video de Exemplo para tutorial :</strong></h6>
+<!-- ![](./img/tecnico/visitaAgendada_AdobeExpress.mp4) -->
+<video width="350" height="300" controls muted poster="../img/tecnico/testePoster.png">
+  <source src="../img/tecnico/visitaAgendada_AdobeExpress.mp4" type="video/mp4" >
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+</video>
+
+<p><br></p>
+<h3 id="visita-imprevista">Visita Imprevista</h3>
+<p><strong>Caso tenha que realizar um visita imprevista basta acessar nova visita inserir o nome da propriedade e arrastar para o lado na opção visita imprevista e selecione qual questionario será usado para essa visita imprevista, após selecionar siga os mesmos passos de uma visita agendada</strong></p>
+<h6 id="video-de-exemplo"><strong>Video de Exemplo :</strong></h6>
+<!-- ![](./img/tecnico/visitaImprevistaVideo_AdobeExpress.mp4) -->
+<video width="350" height="300" controls muted poster="../img/tecnico/testePoster.png">
+  <source src="../img/tecnico/visitaImprevistaVideo_AdobeExpress.mp4" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+</video></div>
             </div>
         </div>
 
