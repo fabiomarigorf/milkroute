@@ -120,6 +120,7 @@ Appós criar uma nova visita, uma listagem de todos os itens aparecerá
 * `Visitas em amarelo` - Todas as visitas que tiverem em amarelo são vistas solicitada
 * `Visitas em cinza claro` - Todas as visitas que estiverem com uma cor acizentada são visitas agendada
 * `Vistas em branco` - Todo tipo de visita que estiver em branco são visitas em andamento
+* `Visitas em Verde` - Visitas que estiverem verde são visitas finalizadas
 
 **Ao clicar no ponto de interrogação na parte superior da pagina, uma mensagem será exibida**
 

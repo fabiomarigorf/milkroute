@@ -1,7 +1,7 @@
 # Cadastros
 
 ## Transportadores
-Essa função tem como caracteristica cadastrar, alterar e excluir os transportadores.
+Essa função tem como característica cadastrar, alterar e excluir os transportadores.
 
 ![](./img/cadastros/Imagem1.png "Cadastro Trnsportador")
 
@@ -39,7 +39,7 @@ O arquivo deve ser salvo em .txt com o nome de transportador e deve seguir o lay
     100;9999999999999;Transportador RF;RF;RF Solution IT;SN;;;4113601;Lobato;Paraná;PR;Brasil;Centro;86790000;999999999;4432498015;;rf@rfsolutionit.com.br;999999999
 
 ## Questionário
-Essa função tem como caracteristica cadastrar, alterar e excluir questionários.
+Essa função tem como característica cadastrar, alterar e excluir questionários.
 
 Na tela abaixo, é possível selecionar o período em que o questionário estará ativo. 
 
@@ -64,12 +64,39 @@ Para cadastrar uma nova pergunta, selecione a categoria desejada, clique no bot�
 * `Descrição` - Permite informar a descrição da pergunta.
 * `Tp Resposta` - Permite informar o tipo de resposta para essa pergunta, sendo elas:
     - Escolha Uma: permitirá que a pergunta tenha somente uma resposta, por exemplo: Sim ou Não.
+
+
+    <div class="imgs">
+        <img src="../img/cadastros/questionarioTecnico02.png" style="margin: 0 10px 0 0">    
+        <img src="../img/cadastros/questionarioTecnico01.png">   
+    </div>
+
+
     - Multipla Escolha: permitirá que a pergunta aceite mais de uma resposta. 
+
+    <div class="imgs">
+        <img src="../img/cadastros/questionarioTecnico2.png" style="margin: 0 10px 0 0">       
+    </div>
+
     - Texto: permitirá que a pergunta aceite uma resposta de texto curto. 
+
+    <div class="imgs">
+        <img src="../img/cadastros/questionarioTecnico3.png" style="margin: 0 10px 0 0">       
+    </div>
+
     - Combo: permitirá que o técnico selecione uma das respostas parametrizadas. 
+
+    <div class="imgs">
+        <img src="../img/cadastros/questionarioTecnico4.png" style="margin: 0 10px 0 0">       
+    </div>
+
     - Data: permitirá que a pergunta aceita somente data como resposta. 
+    <br>
+    ![](./img/cadastros/questionarioTecnico5.png)
 * `Ativa` - Caso desativado a pergunta não irá aparecer no questionário.
 * `Tamanho Máximo` - Permite definir um tamanho máximo de resposta para essa pergunta, utilizado em perguntas do tipo texto, caso contrário pode definir como zero. 
+
+![](./img/cadastros/questionario6.png)
 
 Após cadastrado as perguntas, é obrigatório cadastrar as opções de resposta para essas perguntas, conforme exemplos abaixo: 
 
@@ -96,8 +123,17 @@ Exemplos:
 
 **Importante:** Caso houver alguma pergunta que será necessário informar apenas números defina o tipo de resposta do tipo "Texto" e no valor da resposta defina "number". 
 
+
+<div class="imgs">
+    <hr>
+    <img src="../img/cadastros/questionario4.png">
+    <img src="../img/cadastros/questionario5.png">
+    <hr>
+</div>
+
+
 ## Propriedade
-Essa função tem como caracteristica cadastrar, alterar e excluir as propriedades.
+Essa função tem como característica cadastrar, alterar e excluir as propriedades.
 
 ![](./img/cadastros/Imagem3.png "Cadastro Propriedades")
 
@@ -140,7 +176,7 @@ O arquivo deve ser salvo em .txt com o nome de propriedade e deve seguir o layou
     1;99999999999999;João Pedro da Silva;João Pedro da Silva;RF Solution IT;SN;;;4113601;Lobato;Paraná;PR;Brasil;Centro;86790-000;999999999;(44)3249-8015;;joao@teste.com.br;999999999;Propriedade RF;true;-23,0076315;-51,9421515
 
 ## Rotas
-Essa função tem como caracteristica cadastrar, alterar e excluir as rotas.
+Essa função tem como característica cadastrar, alterar e excluir as rotas.
 
 ![](./img/cadastros/Imagem4.png "Cadastro Rotas")
 
@@ -178,7 +214,7 @@ O arquivo deve ser salvo em .txt com o nome de rota e deve seguir o layout abaix
 
 
 ## Veículo
-Essa função tem como caracteristica cadastrar, alterar e excluir os veículos.
+Essa função tem como característica cadastrar, alterar e excluir os veículos.
 
 ![](./img/cadastros/Imagem5.png "Cadastro Veiculos")
 

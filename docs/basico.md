@@ -2,7 +2,7 @@
 
 ## Usuários
 
-Essa função tem como caracteristica cadastrar, alterar ou inativar usuários.
+Essa função tem como característica cadastrar, alterar ou inativar usuários.
 
 ![](./img/basico/Imagem1.png "Cadastro usuário")
 
@@ -48,7 +48,7 @@ Essa função tem como caracteristica cadastrar, alterar ou inativar usuários.
 
 ## Estabelecimento
 
-Essa função tem como caracteristica cadastrar, alterar ou excluir estabelecimentos.
+Essa função tem como característica cadastrar, alterar ou excluir estabelecimentos.
 
 ![](./img/basico/Imagem2.png "Cadastro Estabelecimento")
 
@@ -94,7 +94,7 @@ O arquivo deve ser salvo em .txt com o nome de estabelecimento e deve seguir o l
 
 ## Técnicos
 
-Essa função tem como caracteristica cadastrar, alterar ou excluir técnicos.
+Essa função tem como característica cadastrar, alterar ou excluir técnicos.
 
 **Importante:** Para cadastro do técnico é necessário realizar antes o cadastro de usuário. 
 
@@ -107,7 +107,7 @@ Essa função tem como caracteristica cadastrar, alterar ou excluir técnicos.
 
 ## Motivos
 
-Essa função tem como caracteristica cadastrar, alterar ou excluir motivos de não coleta.
+Essa função tem como característica cadastrar, alterar ou excluir motivos de não coleta.
 
 ![](./img/basico/Imagem4.png "Cadastro Motivo")
 
@@ -118,7 +118,7 @@ Essa função tem como caracteristica cadastrar, alterar ou excluir motivos de n
 
 ## Parâmetro Coleta Leite
 
-Essa função tem como caracteristica informar os parâmetros básicos de funcionamento do sistema de coleta.
+Essa função tem como característica informar os parâmetros básicos de funcionamento do sistema de coleta.
 
 ![](./img/basico/Imagem5.png "Cadastro Parâmetros Coleta Leite")
 
@@ -138,7 +138,7 @@ Essa função tem como caracteristica informar os parâmetros básicos de funcio
 
 ## Parâmetros Integração
 
-Essa função tem como caracteristica informar os parâmetros de integração com outros sistemas.
+Essa função tem como característica informar os parâmetros de integração com outros sistemas.
 
 ![](./img/basico/Imagem8.png "Cadastro Tipo Veículo")
 
@@ -155,7 +155,7 @@ Essa função tem como caracteristica informar os parâmetros de integração co
 
 ## Tipo Veículo
 
-Essa função tem como caracteristica cadastrar, alterar e excluir os tipos de veículos.
+Essa função tem como característica cadastrar, alterar e excluir os tipos de veículos.
 
 ![](./img/basico/Imagem6.png "Cadastro Tipo Veículo")
 
@@ -165,7 +165,7 @@ Essa função tem como caracteristica cadastrar, alterar e excluir os tipos de v
 
 ## Série Mapa
 
-Essa função tem como caracteristica cadastrar, alterar e excluir as séries mapas.
+Essa função tem como característica cadastrar, alterar e excluir as séries mapas.
 
 ![](./img/basico/Imagem7.png "Cadastro Série Mapa")
 

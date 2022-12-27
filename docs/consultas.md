@@ -1,7 +1,7 @@
 # Consultas
 
 ## Consulta Mapa Coleta
-Essa função tem como caracteristica visualizar apenas um mapa coleta por consulta.
+Essa função tem como característica visualizar apenas um mapa coleta por consulta.
 
 No filtro destacado abaixo, recomendamos informar apenas código do estabelecimento, código da linha e data de partida, para facilitar a consulta do mapa.
 

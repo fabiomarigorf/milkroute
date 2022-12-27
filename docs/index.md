@@ -1,10 +1,10 @@
 # Milkroute
 
-Documentação sistema Milkroute
+Documentação e Instruções de Uso
 
 ---
 
-O Software Milkroute possibilita a realização de controle do leite coletado no campo pelos transportadores através de um dispositivo mobile, e a integração com um sistema de gerenciamento após a chegada do produtor na indústria de laticínio.
+O ecossistema de aplicativos Milkroute é a mais nova e inovadora solução da RF Solution IT de apoio tecnológico para o processo de Captação e Qualidade de Leite. Através de aplicativos para smartphones e um gerenciador web 100%
 
 [introductory tutorial]: getting-started.md
 [alteracoes]: user-guide/index.md
@@ -34,7 +34,7 @@ O Software Milkroute possibilita a realização de controle do leite coletado no
       <div class="card-body">
         <h3 class="card-title">Visitas técnicas</h3>
         <p class="card-text">
-            Controle as visitas técnicas e comerciais da sua equipe através
+            Controla as visitas técnicas e comerciais da sua equipe através
             de questionários personalizados.
         </p>
       </div>
@@ -48,7 +48,7 @@ O Software Milkroute possibilita a realização de controle do leite coletado no
       <div class="card-body">
         <h3 class="card-title">Controle de lançamentos</h3>
         <p class="card-text">
-            Ofereça ao seu transportador um aplicativo simples para controle
+            Oferece ao transportador um aplicativo simples para controle
             de lançamentos realizados na propriedade rural.
         </p>
       </div>
@@ -59,8 +59,8 @@ O Software Milkroute possibilita a realização de controle do leite coletado no
       <div class="card-body">
         <h3 class="card-title">Aplicativos Mobile</h3>
         <p class="card-text">
-            O Milkroute oferece três tipos de aplicativos mobile, para Transportadores,
-            Produtores e Técnicos de campo.
+            O Milkroute oferece três tipos de aplicativos para dispositivos Android: Transportadores, Produtores rurais e Técnicos de campo.
+            <a target="blank" href="https://play.google.com/store/apps/developer?id=RF+Solution+IT">Confira</a>
         </p>
       </div>
     </div>
