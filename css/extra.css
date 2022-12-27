@@ -48,6 +48,15 @@ body.homepage>div.container>div.row>div.col-md-9 {
     max-width: 100%;
 }
 
+.imgs {
+    display: flex;
+    margin-left: 40px;
+}
+
+.imgs:nth-child(1) {
+    margin-right: 20px;
+}
+
 /* .testeIMG {
     width: 100px;
     height: 100px;
