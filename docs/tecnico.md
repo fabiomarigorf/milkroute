@@ -1,22 +1,57 @@
 # Técnico
-**Vizualizer como é o funcionamento do aplicativo do tecnico**
-***
 
 <!-- ## Instalação  -->
 
-##                  
-**Cadastre um questionário para que o tecnico possa realizar**
 
-**No milkroute web acesse à abá de cadastro e selecione questionário**
 ***
 
-### Cadastrar Novo questionário
+## Instalação do aplicativo 
+Acesse a playstore de seu dispositivo e pesquise o nome do aplicativo "Milkroute Tecnico" conforme mostrado abaixo
+
+![](./img/produtor/imagem1.png)
+
+Selecione o aplicativo e instale em seu dispositivo 
+
+<div class="img-mobile">
+  <img src="/img/tecnico/Download%20app.png">
+</div>
+Após a instalação, o aplicativo estará disponivel em sua area de trabalho para o uso
+<div class="img-mobile">
+  <img src="/img/tecnico/Tela.png">
+</div>
+***
+
+## Acessando o aplicativo
+
+<div class="img-mobile">
+  <img src="/img/tecnico/app.png">
+</div>
+<br>
+
+* `Usuario` - Insira a conta de acesso do usuário
+* `Empresa` - Informe a empresa de operação do usuário
+* `Senha` - Insira a senha para o acesso a conta
+
+
+<div class="img-mobile">
+  <img src="/img/tecnico/entrarApp.png">
+</div>
+
+***
+## Esqueceu a senha
+Caso tenha esquecido a senha do acesso, clique em "Esqueceu a senha" e preencha os campos pedidos
+
+<div class="img-mobile">
+  <img src="/img/tecnico/esqueceuSenha.png">
+</div>
+
+<!-- ### Cadastrar Novo questionário
 
 ![](./img/tecnico/cadastro.jpg)
 
 ##### **Campos para Preencher :**
 
-* `Descrição` - Permite informar a descrição do questionátio.
+* `Descrição` - Permite informar a descrição do questionário.
 * `Data Inicio` - Permite inserir a data de inicio de uso do questionário
 * `Data Fim` - Permite informar a data máxima de uso do questionário
 
@@ -103,10 +138,61 @@ Appós criar uma nova visita, uma listagem de todos os itens aparecerá
 
 ![](./img/tecnico/set3.jpg)
 
-**Opção para baixar um pdf sobre as informações da visita**
+**Opção para baixar um pdf sobre as informações da visita** -->
 ***
 ## Aplicativo
 **O app tem a função da visita do tecnico, ele sera usado no momento da visita**
+***
+
+### Agenda de Visitas
+Após feita a instalção do aplicativo e logar ao sistema você será redirecinado para pagina inicial
+
+<div class="img-mobile">
+  <img src="/img/tecnico/Agenda.png">
+</div>
+<br>
+
+Este campo tem como função do gerenciamento de visitas agendadas  <br>
+Selecione os dias para que possa gerenciar a visita <br>
+Você pode escolher o dia e o mês da visita
+
+#### **Visitas :**
+
+* `Verde` - Visitas em Verde, são visitas finalizadas
+* `Amarela` - Visitas em Amarelas, são visitas que foram solicitadas
+* `Azul` - Visitas em Azul, são visitas que foram confirmadas
+* `Branco` - Visitas em Branco, são visitas que estão em andamento
+
+Abaixo dos dias aparece a quantidade de visitas agendadas para aquele dia
+
+***
+### Consulta de Produtores
+Caso deseje consultar alguma propriedade, entre na aba de Produtores<br> 
+Insira o nome do produtor que deseja consultar
+
+<div class="img-mobile">
+  <img src="/img/tecnico/consulta.png">
+</div>
+<br>
+
+Nesta aba permita que você possa <br>
+* Consultar a localização da propriedade<br>
+* Consultar a quantidade de coletas que foi realizada<br>
+* Consultar uma análise do leite coletado <br>
+* niciar uma nova visita 
+
+#### Movimentos
+
+<div class="img-mobile">
+  <img src="/img/tecnico/movimentos.png">
+</div>
+***
+
+#### Análise
+
+<div class="img-mobile">
+  <img src="/img/tecnico/analise.png">
+</div>
 ***
 ### Visitas
 
@@ -136,11 +222,11 @@ Appós criar uma nova visita, uma listagem de todos os itens aparecerá
 <br>
 ![](./img/tecnico/novaVisitaAPP.jpg)
 
-**Ao clicar na opção de nova visita, você será redirecionado para uma nova abá onde você deve colar o nome da propriedade para a visita**
+**Ao clicar na opção de nova visita, você será redirecionado para uma nova aba onde você deve colar o nome da propriedade para a visita**
 
 ![](./img/tecnico/visitaAgendada.jpg)
 
-**Selecione a visita para ser iniciada, ao clicar uma mensagem aparecerá se deseja iniciar o preenchimento do questionario, ao inicar você sera redirecionado para uma nova abá com informações da visita, recomendações e observações**
+**Selecione a visita para ser iniciada, ao clicar uma mensagem aparecerá se deseja iniciar o preenchimento do questionario, ao inicar você sera redirecionado para uma nova aba com informações da visita, recomendações e observações**
 
 ![](./img/tecnico/vamosComecar.jpg)
 
@@ -176,7 +262,7 @@ Appós criar uma nova visita, uma listagem de todos os itens aparecerá
 
 ![](./img/tecnico/data.jpg)
 
-**!!Ao clicar uma abá para você escolher a data aparecerá**
+**!!Ao clicar uma aba para você escolher a data aparecerá**
 ***
 
 ### Finalizar

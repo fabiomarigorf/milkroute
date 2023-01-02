@@ -12,7 +12,7 @@ Essa função tem como característica cadastrar, alterar ou inativar usuários.
 * `Sobrenome` - Permite inserir o sobrenome do usuário.
 * `Login` - Permite inserir o login do usuário.
 * `Senha` - Permite inserir a senha do usuário.
-* `E-mail` - Permite inseris o e-mail do usuário.
+* `E-mail` - Permite inserir o e-mail do usuário.
 * `Usuário inativo` - Permite inativar o usuário.
 * `Permissões` - Permite selecionar as permissões que o usuário possuirá. 
 
@@ -24,7 +24,7 @@ Essa função tem como característica cadastrar, alterar ou inativar usuários.
     - Empresa
     - Técnico
     - Transportadores
-    - Mensanges
+    - Mensagens
 2. Permissões Coleta Leite:
     - Parâmetro Coleta Leite
     - Tipo Veículo
@@ -67,15 +67,15 @@ Essa função tem como característica cadastrar, alterar ou excluir estabelecim
 * `Número` - Permite inserir o número do estabelecimento.
 * `Bairro` - Permite inserir o bairro do estabelecimento.
 * `Complemento` - Permite inserir o complemento do estabelecimento.
-* `Estado` - Permite selecionar o estado que será estabelecido para o * `estabelecimento. 
-* `Cidade` - Permite selecionar a cidade que será estabelecida para o * `estabelecimento. 
+* `Estado` - Permite selecionar o estado que será estabelecido para o * estabelecimento. 
+* `Cidade` - Permite selecionar a cidade que será estabelecida para o * estabelecimento. 
 * `CEP` - Permite inserir o CEP da cidade.
 * `Latitude` - Permite inserir a latitude de localização.
 * `Longitude` - Permite inserir a longitude de localização.
 * `Email` - Permite inserir o e-mail que será estabelecido para o estabelecimento.
-* `Telefone` - Permite inserir o telefone que será estabelecido para o * `estabelecimento.
-* `Ambiente Integração` - Permite informar o ambiente de integração do * `estabelecimento com sistema externo.
-* `Layout Etiqueta` - Permite inserir o layout para as etiquetas a serem impressas em * `impressora Zebra.
+* `Telefone` - Permite inserir o telefone que será estabelecido para o * estabelecimento.
+* `Ambiente Integração` - Permite informar o ambiente de integração do * estabelecimento com sistema externo.
+* `Layout Etiqueta` - Permite inserir o layout para as etiquetas a serem impressas em * impressora Zebra.
 * `Imagem` - Permite inserir o logotipo para impressão de relatórios
 
 > ![](./img/buttons/sincronizar.png "Botão Sincronizar") **Sincronizar Cadastro:** Ao selecionar esta opção é possível sincronizar os cadastros de transportadores com sistemas externos, de acordo com as parametrizações informadas nos “Parâmetros de Integração”.

@@ -42,7 +42,7 @@ Após realizar a autenticação, será apresentado a tela inicial com um gráfic
 
 ![](./img/produtor/imagem9.png)
 
-Na parte inferior da tela inicial será disponível as opções para consulta de informações: Movimentos, Análise e Notas Fiscais. 
+Na parte inferior da tela inicial será disponibilizado as opções para consulta de informações: Movimentos, Análise e Notas Fiscais. 
 
 ## Movimentos 
 
@@ -54,7 +54,7 @@ Na aba Movimentos, é possível realizar uma consulta detalhada das coletas feit
 
 * `Filtro` - Permite selecionar o mês em que o produtor quer visualizar as informações. 
 * `Total período` - Quantidade total de leite coletado no mês. 
-* `Média diária` - Cálculo: total de leite coletado no mês dividido pela quantidade de dias em que o produtor teve coleta realizada.
+* `Média diária` - Totaliza os movimentos de leite coletados no mês dividido pela quantidade de dias em que o produtor teve coleta realizada.
 * `Gráfico` - Na parte superior do gráfico é possível visualizar a quantidade coletada no dia, na parte inferior é possível visualizar o dia do mês. Ao arrastar para o lado é possível ver a quantidade coletada dos demais dias do mês. 
 
 ## Movimentos - Beneficiário
@@ -71,7 +71,7 @@ Resumo por produtor:
 
 ## Análises 
 
-Na aba Análise, é possível realizar uma consulta detalhada das análises feita em sua propriedade.
+Na aba Análise, é possível realizar uma consulta detalhada dos atributos do leite conforme apostras enviadas para análises de rotina.
 
 ![](./img/produtor/imagem12.png)
 

@@ -1,4 +1,4 @@
-# Milk Route Mobile
+# MilkRoute Mobile
 
 Ao entrar no aplicativo você deve seguir algumas instruções para se conectar. [Clique aqui para conferir o Tutorial](https://youtu.be/i1GYTs2Ctr4)
 ***
@@ -7,7 +7,7 @@ Ao entrar no aplicativo você deve seguir algumas instruções para se conectar.
 ***
 
 ## Rotas
-Ao entrar no app você será redirecionado diretamente para a abá de rotas, neste campo tem a função de 
+Ao entrar no app você será redirecionado diretamente para a aba de rotas, neste campo tem a função de 
 selecionar em qual rota trabalhará
 
 ![](./img/coleta/rotas.jpg)
@@ -22,7 +22,7 @@ rota
 
 ![](./img/coleta/selecionar.png)
 
-Após selecionar, você sera redirecionado para uma nova abá onde mostrará todas as propriedades de sua rota
+Após selecionar, você sera redirecionado para uma nova aba onde mostrará todas as propriedades de sua rota
 
 ![](./img/coleta/produtores.jpg)
 ***
@@ -64,7 +64,7 @@ Informe qual foi o motivo de não realizar a coleta
 * **Produtor do dia seguinte**
 * **Produto Inativo**
 ***
-Após finalizar a coleta volte na abá principal e insira o km final
+Após finalizar a coleta volte na aba principal e insira o km final
 
 ![](./img/coleta/kmFinal.jpg)
 ***
@@ -110,7 +110,7 @@ Logo ao enviar você poderá acessar informações no milkroute web, após a rot
 #### **Todos os campos**
 
 * `Coletador de Amostra` - Insira o coletador de amostra
-* `URL Comunicação` - URL de comunicação com o servidor| **Rocomendado não mudar**
+* `URL Comunicação` - URL de comunicação com o servidor| **Recomendado não mudar**
 * `Token` - Token fornecido pela empresa
 ****
 1. **Configuração de impressão**
@@ -126,7 +126,7 @@ Logo ao enviar você poderá acessar informações no milkroute web, após a rot
 <br>
 ![](./img/coleta/elimitarRotas.jpg)
 
-**Caso tenha finalizado as rotas edeseja eliminá las clique na opção exibida acima**
+**Caso tenha finalizado as rotas e deseja eliminá las clique na opção exibida acima**
 ***
 
 ## Suporte

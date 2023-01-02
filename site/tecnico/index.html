@@ -105,15 +105,15 @@
             
             <li class="nav-item" data-level="1"><a href="#tecnico" class="nav-link">Técnico</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link"></a>
+            <li class="nav-item" data-level="2"><a href="#instalacao-do-aplicativo" class="nav-link">Instalação do aplicativo</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#tecnico_1" class="nav-link">Tecnico</a>
+            <li class="nav-item" data-level="2"><a href="#acessando-o-aplicativo" class="nav-link">Acessando o aplicativo</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#mapa-visita" class="nav-link">Mapa Visita</a>
+            <li class="nav-item" data-level="2"><a href="#esqueceu-a-senha" class="nav-link">Esqueceu a senha</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -129,98 +129,181 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="tecnico">Técnico</h1>
-<p><strong>Vizualizer como é o funcionamento do aplicativo do tecnico</strong></p>
-<hr />
 <!-- ## Instalação  -->
 
-<h2 id="_1"></h2>
-<p><strong>Cadastre um questionário para que o tecnico possa realizar</strong></p>
-<p><strong>No milkroute web acesse à abá de cadastro e selecione questionário</strong></p>
 <hr />
-<h3 id="cadastrar-novo-questionario">Cadastrar Novo questionário</h3>
-<p><img alt="" src="../img/tecnico/cadastro.jpg" /></p>
-<h5 id="campos-para-preencher"><strong>Campos para Preencher :</strong></h5>
+<h2 id="instalacao-do-aplicativo">Instalação do aplicativo</h2>
+<p>Acesse a playstore de seu dispositivo e pesquise o nome do aplicativo "Milkroute Tecnico" conforme mostrado abaixo</p>
+<p><img alt="" src="../img/produtor/imagem1.png" /></p>
+<p>Selecione o aplicativo e instale em seu dispositivo </p>
+<div class="img-mobile">
+  <img src="/img/tecnico/Download%20app.png">
+</div>
+<p>Após a instalação, o aplicativo estará disponivel em sua area de trabalho para o uso</p>
+<div class="img-mobile">
+  <img src="/img/tecnico/Tela.png">
+</div>
+<hr />
+<h2 id="acessando-o-aplicativo">Acessando o aplicativo</h2>
+<div class="img-mobile">
+  <img src="/img/tecnico/app.png">
+</div>
+<p><br></p>
 <ul>
-<li><code>Descrição</code> - Permite informar a descrição do questionátio.</li>
-<li><code>Data Inicio</code> - Permite inserir a data de inicio de uso do questionário</li>
-<li><code>Data Fim</code> - Permite informar a data máxima de uso do questionário</li>
+<li><code>Usuario</code> - Insira a conta de acesso do usuário</li>
+<li><code>Empresa</code> - Informe a empresa de operação do usuário</li>
+<li><code>Senha</code> - Insira a senha para o acesso a conta</li>
 </ul>
-<p><img alt="" src="../img/cadastros/questionario1.png" /></p>
-<h4 id="cadastrar-categoria"><strong>Cadastrar Categoria</strong></h4>
-<ul>
-<li><code>Descrição</code> - Permite inserir um nome para a categoria</li>
-</ul>
-<p><img alt="" src="../img/tecnico/categoriaCadastro.jpg" /></p>
+<div class="img-mobile">
+  <img src="/img/tecnico/entrarApp.png">
+</div>
+
 <hr />
-<h4 id="cadastrar-perguntas-para-categoria"><strong>Cadastrar Perguntas para Categoria :</strong></h4>
-<p><img alt="" src="../img/cadastros/questionario2.png" /></p>
-<h6 id="principais-campos-para-preencher"><strong>Principais campos para preencher :</strong></h6>
-<ul>
-<li><code>Descrição</code> - Permite informar a descrição de referência para a pergunta.</li>
-<li><code>Tipo de Resposta</code> - Permite informar o tipo de resposta para essa pergunta, sendo elas:<ul>
-<li>Escolha Uma: permitirá que a pergunta tenha somente uma resposta, por exemplo: Sim ou Não.</li>
-<li>Multipla Escolha: permitirá que a pergunta aceite mais de uma resposta.</li>
-<li>Texto: permitirá que a pergunta aceite uma resposta de texto curto.</li>
-<li>Combo: permitirá que o técnico selecione uma das respostas parametrizadas.</li>
-<li>Data: permitirá que a pergunta aceita somente data como resposta.</li>
-</ul>
-</li>
-<li><code>Ativa</code> - Caso desativado a pergunta não irá aparecer no questionário</li>
-<li><code>Tamanho Máximo</code> - Permite definir um tamanho máximo de resposta para essa pergunta, utilizado em perguntas do tipo texto, caso contrário pode definir como zero.</li>
-</ul>
-<hr />
-<h4 id="incluir-respostas"><strong>Incluir Respostas</strong></h4>
-<p><img alt="" src="../img/tecnico/incluirPergunta.jpg" /></p>
-<h6 id="campos-para-preencher_1"><strong>Campos para preencher :</strong></h6>
-<ul>
-<li><code>Descrição</code> - Informe uma descrição para a resposta| <strong>"Um nome para ser mais especifico"</strong></li>
-<li><code>Valor Resposta</code> - Permite Inserir um valor de respotas, sendo elas<ul>
-<li>Escolha uma: o valor deve ser <strong>true</strong> para positivo ou <strong>false</strong> para negativo</li>
-<li>Multipla escolha: o valor deverá ser <strong>"text"</strong></li>
-<li>Texto: o valor deverá ser <strong>"text"</strong></li>
-<li>Combo: o valor deverá ser <strong>"text"</strong></li>
-<li>Date: o valor da respota deverá ser <strong>"date"</strong></li>
-</ul>
-</li>
-<li><code>Cor</code> - Defina uma cor para agradar a visualização da resposta</li>
-<li><code>Ativa</code> - caso está opção esteja desativada a resposta não aparecerá</li>
-</ul>
-<p><img alt="" src="../img/tecnico/op%C3%A7%C3%A3oPergunta.jpg" /></p>
-<hr />
-<h2 id="tecnico_1">Tecnico</h2>
-<p><strong>Tenha um tecnico cadastrado para que possa definir seus questionários</strong></p>
-<p><strong>No milkroute web vá em basico e acesse o campo tecnico</strong></p>
-<hr />
-<p>Selecione um tecnico e clique na opção para alterar
-<img alt="" src="../img/tecnico/ess.jpg" /></p>
-<p><strong>Selecione um questionário desejado clique na seta unica para enviar esse questionário escolhido, caso deseja mandar mais de um questionário é possivel, caso queria manda todos de uma só vez clique na seta dupla, clique nas setas em suas respectiva direção para mandar onde quiser</strong></p>
-<hr />
-<h2 id="mapa-visita">Mapa Visita</h2>
-<p><strong>Cadastre uma agenda para a visitas dos tecnicos</strong></p>
-<h4 id="nova-visita"><strong>Nova Visita</strong></h4>
-<p><img alt="" src="../img/tecnico/novaVisita.jpg" /></p>
-<h6 id="campos-para-preencher_2"><strong>Campos para preencher :</strong></h6>
-<ul>
-<li><code>Questionário</code> - Selecione qual questionário será usado na visita</li>
-<li><code>Propriedade</code> - Informe o nome da propriedade</li>
-</ul>
-<p><img alt="" src="../img/tecnico/cadastroVisita.jpg" /></p>
-<p>Appós criar uma nova visita, uma listagem de todos os itens aparecerá
-<img alt="" src="../img/tecnico/listagem.jpg" /></p>
-<hr />
-<p><img alt="" src="../img/tecnico/set1.jpg" /></p>
-<p><strong>Vizualizar observações e recomendações</strong> </p>
-<hr />
-<p><img alt="" src="../img/tecnico/set2.jpg" /></p>
-<p><strong>Exibir respostas</strong></p>
-<hr />
-<p><img alt="" src="../img/tecnico/set3.jpg" /></p>
-<p><strong>Opção para baixar um pdf sobre as informações da visita</strong></p>
+<h2 id="esqueceu-a-senha">Esqueceu a senha</h2>
+<p>Caso tenha esquecido a senha do acesso, clique em "Esqueceu a senha" e preencha os campos pedidos</p>
+<div class="img-mobile">
+  <img src="/img/tecnico/esqueceuSenha.png">
+</div>
+
+<!-- ### Cadastrar Novo questionário
+
+![](./img/tecnico/cadastro.jpg)
+
+##### **Campos para Preencher :**
+
+* `Descrição` - Permite informar a descrição do questionário.
+* `Data Inicio` - Permite inserir a data de inicio de uso do questionário
+* `Data Fim` - Permite informar a data máxima de uso do questionário
+
+![](./img/cadastros/questionario1.png)
+
+#### **Cadastrar Categoria**
+
+* `Descrição` - Permite inserir um nome para a categoria
+
+![](./img/tecnico/categoriaCadastro.jpg)
+***
+#### **Cadastrar Perguntas para Categoria :**
+
+![](./img/cadastros/questionario2.png)
+
+###### **Principais campos para preencher :**
+
+* `Descrição` - Permite informar a descrição de referência para a pergunta.
+* `Tipo de Resposta` - Permite informar o tipo de resposta para essa pergunta, sendo elas:
+    - Escolha Uma: permitirá que a pergunta tenha somente uma resposta, por exemplo: Sim ou Não.
+    - Multipla Escolha: permitirá que a pergunta aceite mais de uma resposta.
+    - Texto: permitirá que a pergunta aceite uma resposta de texto curto.
+    - Combo: permitirá que o técnico selecione uma das respostas parametrizadas.
+    - Data: permitirá que a pergunta aceita somente data como resposta.
+* `Ativa` - Caso desativado a pergunta não irá aparecer no questionário
+* `Tamanho Máximo` - Permite definir um tamanho máximo de resposta para essa pergunta, utilizado em perguntas do tipo texto, caso contrário pode definir como zero.
+***
+
+#### **Incluir Respostas**
+
+![](./img/tecnico/incluirPergunta.jpg)
+
+###### **Campos para preencher :**
+
+* `Descrição` - Informe uma descrição para a resposta| **"Um nome para ser mais especifico"**
+* `Valor Resposta` - Permite Inserir um valor de respotas, sendo elas
+    - Escolha uma: o valor deve ser **true** para positivo ou **false** para negativo
+    - Multipla escolha: o valor deverá ser **"text"**
+    - Texto: o valor deverá ser **"text"**
+    - Combo: o valor deverá ser **"text"**
+    - Date: o valor da respota deverá ser **"date"**
+* `Cor` - Defina uma cor para agradar a visualização da resposta
+* `Ativa` - caso está opção esteja desativada a resposta não aparecerá
+
+![](./img/tecnico/op%C3%A7%C3%A3oPergunta.jpg)
+***
+## Tecnico
+**Tenha um tecnico cadastrado para que possa definir seus questionários**
+
+**No milkroute web vá em basico e acesse o campo tecnico**
+***
+Selecione um tecnico e clique na opção para alterar
+![](./img/tecnico/ess.jpg)
+
+**Selecione um questionário desejado clique na seta unica para enviar esse questionário escolhido, caso deseja mandar mais de um questionário é possivel, caso queria manda todos de uma só vez clique na seta dupla, clique nas setas em suas respectiva direção para mandar onde quiser**
+***
+## Mapa Visita
+**Cadastre uma agenda para a visitas dos tecnicos**
+
+#### **Nova Visita**
+
+![](./img/tecnico/novaVisita.jpg)
+
+###### **Campos para preencher :**
+
+* `Questionário` - Selecione qual questionário será usado na visita
+* `Propriedade` - Informe o nome da propriedade
+
+![](./img/tecnico/cadastroVisita.jpg)
+
+Appós criar uma nova visita, uma listagem de todos os itens aparecerá
+![](./img/tecnico/listagem.jpg)
+***
+
+![](./img/tecnico/set1.jpg)
+
+**Vizualizar observações e recomendações** 
+***
+
+![](./img/tecnico/set2.jpg)
+
+**Exibir respostas**
+***
+
+![](./img/tecnico/set3.jpg)
+
+**Opção para baixar um pdf sobre as informações da visita** -->
 <hr />
 <h2 id="aplicativo">Aplicativo</h2>
 <p><strong>O app tem a função da visita do tecnico, ele sera usado no momento da visita</strong></p>
 <hr />
-<h3 id="visitas">Visitas</h3>
+<h3 id="agenda-de-visitas">Agenda de Visitas</h3>
+<p>Após feita a instalção do aplicativo e logar ao sistema você será redirecinado para pagina inicial</p>
+<div class="img-mobile">
+  <img src="/img/tecnico/Agenda.png">
+</div>
+<p><br></p>
+<p>Este campo tem como função do gerenciamento de visitas agendadas  <br>
+Selecione os dias para que possa gerenciar a visita <br>
+Você pode escolher o dia e o mês da visita</p>
+<h4 id="visitas"><strong>Visitas :</strong></h4>
+<ul>
+<li><code>Verde</code> - Visitas em Verde, são visitas finalizadas</li>
+<li><code>Amarela</code> - Visitas em Amarelas, são visitas que foram solicitadas</li>
+<li><code>Azul</code> - Visitas em Azul, são visitas que foram confirmadas</li>
+<li><code>Branco</code> - Visitas em Branco, são visitas que estão em andamento</li>
+</ul>
+<p>Abaixo dos dias aparece a quantidade de visitas agendadas para aquele dia</p>
+<hr />
+<h3 id="consulta-de-produtores">Consulta de Produtores</h3>
+<p>Caso deseje consultar alguma propriedade, entre na aba de Produtores<br> 
+Insira o nome do produtor que deseja consultar</p>
+<div class="img-mobile">
+  <img src="/img/tecnico/consulta.png">
+</div>
+<p><br></p>
+<p>Nesta aba permita que você possa <br>
+* Consultar a localização da propriedade<br>
+* Consultar a quantidade de coletas que foi realizada<br>
+* Consultar uma análise do leite coletado <br>
+* niciar uma nova visita </p>
+<h4 id="movimentos">Movimentos</h4>
+<div class="img-mobile">
+  <img src="/img/tecnico/movimentos.png">
+</div>
+<hr />
+<h4 id="analise">Análise</h4>
+<div class="img-mobile">
+  <img src="/img/tecnico/analise.png">
+</div>
+<hr />
+<h3 id="visitas_1">Visitas</h3>
 <p><img alt="" src="../img/tecnico/visitasBot%C3%A3o.jpg" /></p>
 <p><img alt="" src="../img/tecnico/visitasPage.jpg" /></p>
 <p><strong>Ao acessar a pagina, mostrará todos as visitas que devem ser feitas</strong></p>
@@ -240,12 +323,12 @@
 </ul>
 <p><img alt="" src="../img/tecnico/XRecorder_Edited_17112022_135816_AdobeExpress%20%282%29.gif" /></p>
 <hr />
-<h3 id="nova-visita_1">Nova Visita</h3>
+<h3 id="nova-visita">Nova Visita</h3>
 <p><br>
 <img alt="" src="../img/tecnico/novaVisitaAPP.jpg" /></p>
-<p><strong>Ao clicar na opção de nova visita, você será redirecionado para uma nova abá onde você deve colar o nome da propriedade para a visita</strong></p>
+<p><strong>Ao clicar na opção de nova visita, você será redirecionado para uma nova aba onde você deve colar o nome da propriedade para a visita</strong></p>
 <p><img alt="" src="../img/tecnico/visitaAgendada.jpg" /></p>
-<p><strong>Selecione a visita para ser iniciada, ao clicar uma mensagem aparecerá se deseja iniciar o preenchimento do questionario, ao inicar você sera redirecionado para uma nova abá com informações da visita, recomendações e observações</strong></p>
+<p><strong>Selecione a visita para ser iniciada, ao clicar uma mensagem aparecerá se deseja iniciar o preenchimento do questionario, ao inicar você sera redirecionado para uma nova aba com informações da visita, recomendações e observações</strong></p>
 <p><img alt="" src="../img/tecnico/vamosComecar.jpg" /></p>
 <p><strong>Ao ler as recomendações e observações passe para continuar o questionario</strong></p>
 <p><strong>!!!OBS: Todas as perguntas e categorias do questionario são apenas para demonstração, elas não serão iguais a que aparecerão em seu aplicativo</strong></p>
@@ -266,7 +349,7 @@
 <hr />
 <h5 id="resposta-com-apenas-datas"><strong>Resposta com apenas Datas</strong></h5>
 <p><img alt="" src="../img/tecnico/data.jpg" /></p>
-<p><strong>!!Ao clicar uma abá para você escolher a data aparecerá</strong></p>
+<p><strong>!!Ao clicar uma aba para você escolher a data aparecerá</strong></p>
 <hr />
 <h3 id="finalizar">Finalizar</h3>
 <p><strong>Após preencher todos os campos, só resta finalizar</strong></p>
