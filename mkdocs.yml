@@ -16,7 +16,8 @@ nav:
   - Técnico: tecnico.md
   - Sobre:
     - Releases Notes: releases.md
-theme: flatly
+theme: 
+  name: 'flatly'
 
 extra_css:
     - css/extra.css

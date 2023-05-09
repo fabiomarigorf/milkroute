@@ -1,6 +1,6 @@
 # MilkRoute Mobile
 
-Ao entrar no aplicativo você deve seguir algumas instruções para se conectar. [Clique aqui para conferir o Tutorial](https://youtu.be/i1GYTs2Ctr4)
+Ao entrar no aplicativo você deve seguir algumas instruções para se conectar. [Clique aqui para conferir o Tutorial.](https://youtu.be/i1GYTs2Ctr4)
 ***
 ![](./img/coleta/home.jpg)
 <br>
@@ -8,21 +8,20 @@ Ao entrar no aplicativo você deve seguir algumas instruções para se conectar.
 
 ## Rotas
 Ao entrar no app você será redirecionado diretamente para a aba de rotas, neste campo tem a função de 
-selecionar em qual rota trabalhará
+selecionar em qual rota trabalhará.
 
 ![](./img/coleta/rotas.jpg)
 
-* Caso não apareça nenhuma rota, basta sincronizar rotas
+* Caso não apareça nenhuma rota, basta sincronizar rotas.
 
 ![](./img/coleta/sincronizarRotas.jpg)
 
-Ao sincronizar uma nova rota sera carregada no menu principar, ao clicar no botão uma opção para selecionar data
-aparecerá, selecione a data desejada, após carregar selecione a rota,ao selecionar você deve informar o km inicial da 
-rota
+Ao sincronizar uma nova rota sera carregada no menu principal, ao clicar no botão, uma opção para selecionar data
+aparecerá, selecione a data desejada, após carregar selecione a rota, ao selecionar você deve informar o km inicial da rota.
 
 ![](./img/coleta/selecionar.png)
 
-Após selecionar, você sera redirecionado para uma nova aba onde mostrará todas as propriedades de sua rota
+Após selecionar, você sera redirecionado para uma nova aba onde mostrará todas as propriedades de sua rota.
 
 ![](./img/coleta/produtores.jpg)
 ***
@@ -32,25 +31,25 @@ Após selecionar, você sera redirecionado para uma nova aba onde mostrará toda
 
 ***
 
-Quando estiver chegando perto da localização da moradia de um desse produtos, surgirá uma notificação em seu celular dizendo que você está proximo a localização. Selecione um para que possa começar a coleta, ao selecionar algumas informações sobre a coleta aparecerá
+Quando estiver chegando perto da localização da moradia de um desses produtores, surgirá uma notificação em seu celular dizendo que você está próximo à localização. Selecione um para poder começar a coleta, ao selecionar algumas informações sobre a coleta aparecerá.
 
 ![](./img/coleta/produtorInfo.jpg)
 
 Antes de preencher os campos selecione em qual compartimento o leite ficará
-#### **Campos para preencher :**
+#### **Campos para preencher:**
 
-* `Alizarol` - Informe se o teste foi positivo ou negativo
+* `Alizarol` - Informe se o teste foi positivo ou negativo.
 * `Quantidade` - Insira a quantidade total do leite coletado
 * `Temperatura Chegada` - Insira a temperatura do leite na hora de chegada
 * `Temperatura Coleta` - Informe a temperatura do leite no momento de coleta
-* `Medida Régua` - Insira a medida da regua ao lado do tanque 
+* `Medida Régua` - Insira a medida da régua ao lado do tanque 
 * `Número Amostra` - Insira o número de amostra ganha
-* `Codigo de Barra` - Insira o Codigo de Barra do local de estoque do leite| **Campo Opcional**
+* `Código de Barra` - Insira o Código de Barra do local de estoque do leite| **Campo Opcional**
 
-Após preencher todos os campos resta apenas confirmar
+Após preencher todos os campos, resta apenas confirmar.
 ***
 
-**Caso a coleta não foi realizadas clique em coleta não realizada**
+**Caso a coleta não foram realizadas clique em *coleta não realizada***
 
 ![](./img/coleta/coletaNaoRealizada.jpg)
 
@@ -71,7 +70,7 @@ Após finalizar a coleta volte na aba principal e insira o km final
 
 ## Enviar Coleta
 
-Após informar o km final da rota agora resta enviar as informações da coleta
+Após informar o km final da rota, agora resta enviar as informações da coleta
 
 ![](./img/coleta/enviarColeta.jpg)
 
@@ -84,7 +83,7 @@ Logo ao enviar você poderá acessar informações no milkroute web, após a rot
 <br>
 ![](./img/coleta/atualizarRotas.jpg)
 
-**Caso seja preciso atualizar sua rota basta apenas clicar em esta opção que é exibido acima**
+**Caso seja preciso atualizar sua rota basta apenas clicar nesta opção que é exibido acima**
 ***
 ## Limpeza de Veículo
 <br>
@@ -98,7 +97,7 @@ Logo ao enviar você poderá acessar informações no milkroute web, após a rot
 <br>
 ![](./img/coleta/mensagem.jpg)
 
-**Caso tenha recebido alguma mensagem e deseja vizualizar apenas entre na opção mensagem mostrada acima**
+**Caso tenha recebido alguma mensagem e deseja visualizar apenas entre na opção mensagem mostrada acima**
 ***
 
 ## Configurações
@@ -115,9 +114,9 @@ Logo ao enviar você poderá acessar informações no milkroute web, após a rot
 ****
 1. **Configuração de impressão**
     - `Impressão de Romaneio` - Deseja impressão de romaneio assinale a opção
-    - `Imprimir Nome Produtor Romaneio` - Deseja imprimir o nome do produtor assinale a opção| **Ative a opção de imprimir romaneio para esta função se torna usavel**
+    - `Imprimir Nome Produtor Romaneio` - Deseja imprimir o nome do produtor assinale a opção| **Ative a opção de imprimir romaneio para esta função se torna usável**
     - `Impressão de Comprovante Produtor` - Deseja imprimir o comprovante do produtor
-    - `Tamanho Papel` - Informe o tamanho do papel| **58mm ou 80mm**
+    - `Tamanho Papel` - Informe o tamanho do papel| **58 mm ou 80 mm**
 
 ![](./img/coleta/configPage.jpg)
 ***
