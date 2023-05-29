@@ -95,7 +95,7 @@ Na aba Análise, é possível realizar uma consulta detalhada dos atributos do l
 
 ## Notas Fiscais
 
-Na aba Notas Fiscais, é possível visualizar as notas emitidas no ano selecionado, número da nota, data de emissão, status, visualização da DANFE e geração do extrato de movimentação anual em PDF com possibilidade de exportação para outros aplicativos no smartphone.
+Na aba Notas Fiscais, é possível visualizar as notas emitidas no ano selecionado, número da nota, data de emissão, status, visualização da DANFE e geração do extrato de movimentação anual em PDF com possibilidade de exportação para outros aplicativos no smartphonee.
 
 <img src="../img/produtor/Screenshot_1683635931.png" width="400px" height="auto">
 
