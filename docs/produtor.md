@@ -42,7 +42,7 @@ Após realizar a autenticação, será apresentado a tela inicial com um gráfic
  
 <img src="../img/produtor/Screenshot_1683635684.png" width="400px" height="auto">
 
-Você também pode acessar os informativos acessando o Menu principal, opção informativos. Ao lado desta opção, possuirá um número em destaque, com o significado da quantidade de informativos não lido, na opção, você pode filtrar todos os informativos por mês / ano.
+Você também pode acessar os informativos acessando o Menu principal, opção Informativos. Ao lado desta opção possui um número em destaque indicando a quantidade de informativos não lido. Nesta a opção é possivel também, filtrar todos os informativos por mês / ano de acordo com sua data de publicação.
 
 <img src="../img/produtor/Screenshot_1683635691.png" width="400px" height="auto">
 
@@ -74,7 +74,7 @@ Na aba Movimentos, é possível realizar uma consulta detalhada das coletas feit
 
 ## Movimentos - Beneficiário
 
-Caso o produtor possuir beneficiários, o mesmo irá conseguir visualizar as informações detalhada de seus beneficiários nesta mesma tela. 
+Caso o produtor outros produtores beneficiários vinculados, o produtor principal pode visualizar as informações detalhadas de seus movimentos e de seus beneficiários nesta mesma tela.
 
 Coletas Detalhadas: 
 
@@ -90,15 +90,12 @@ Na aba Análise, é possível realizar uma consulta detalhada dos atributos do l
 
 ![](./img/produtor/imagem12.png)
 
-![](./img/produtor/imagem13.png)
-
 * `Filtro` - Permite selecionar o mês em que o produtor quer visualizar as informações. 
 * `Menu superior` - É possível selecionar e visualizar diferentes tipos de análises, Gordura, Proteína, Sólidos Totais, ESD, CPP UFC/ml e CCS/ml. 
-* `Gráfico` - Na parte superior do gráfico é possível visualizar o valor da análise, na parte inferior é possível visualizar o período em que a análise foi feita. 
 
 ## Notas Fiscais
 
-Na aba Notas Fiscais, é possível visualizar as notas emitidas no ano, Extrato de Movimentação, número da nota, data de emissão, status e o seu PDF.
+Na aba Notas Fiscais, é possível visualizar as notas emitidas no ano selecionado, número da nota, data de emissão, status, visualização da DANFE e geração do extrato de movimentação anual em PDF com possibilidade de exportação para outros aplicativos no smartphone.
 
 <img src="../img/produtor/Screenshot_1683635931.png" width="400px" height="auto">
 
@@ -108,7 +105,7 @@ Ao clicar sobre a nota é possível visualizar e compartilhar seu PDF.
 
 ![](./img/produtor/imagem16.png)
 
-Selecione um ano desejado e ao clicar no botão ao lado do filtro, é posso possível analisar o extrato de movimento do ano referente ao selecionado.
+Selecione um ano desejado e ao clicar no botão (💲) ao lado do filtro, é gerado o extrato de movimento do ano referente ao selecionado.
 
 <img src="../img/produtor/Screenshot_1683635936.png" width="400px" height="auto">
 
