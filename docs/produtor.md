@@ -74,7 +74,7 @@ Na aba Movimentos, é possível realizar uma consulta detalhada das coletas feit
 
 ## Movimentos - Beneficiário
 
-Caso o produtor outros produtores beneficiários vinculados, o produtor principal pode visualizar as informações detalhadas de seus movimentos e de seus beneficiários nesta mesma tela.
+Caso o produtor possuir outros produtores beneficiários vinculados, o produtor principal pode visualizar as informações detalhadas de seus movimentos e de seus beneficiários nesta mesma tela.
 
 Coletas Detalhadas: 
 
